@@ -1,0 +1,57 @@
+mainmenu "RT-Thread Configuration"
+
+config $BSP_DIR
+    string
+    option env="BSP_ROOT"
+    default "."
+
+config $RTT_DIR
+    string
+    option env="RTT_ROOT"
+    default "../.."
+
+config $PKGS_DIR
+    string
+    option env="PKGS_ROOT"
+    default "packages"
+
+source "$RTT_DIR/Kconfig"
+source "$PKGS_DIR/Kconfig"
+
+choice
+    prompt "Device type"
+    default STM32L072VZ
+    config STM32L072VZ
+        bool "STM32L072VZ"
+endchoice
+
+ 
+if RT_USING_SERIAL
+
+    config RT_USING_UART1
+        bool "Using uart1"
+        default y    
+
+    config RT_USING_UART2
+        bool "Using uart2"
+        default n    
+
+    config RT_USING_UART3
+        bool "Using uart3"
+        default n   
+	config RT_USING_UART4
+		bool "Using uart3"
+        default y   
+	config RT_USING_LPUART1
+		bool "Using lpuart1"
+		default y   
+endif
+
+if RT_USING_SPI
+    config RT_USING_SPI1
+        bool "Using spi1"
+        default y
+    config RT_USING_SPI2
+        bool "Using spi2"
+        default n
+endif
