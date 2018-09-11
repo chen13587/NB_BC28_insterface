@@ -115,6 +115,8 @@
 #define AT_USING_SOCKET
 #define AT_USING_CLI
 
+
+#define AT_PRINT_RAW_CMD
 /* VBUS(Virtual Software BUS) */
 
 

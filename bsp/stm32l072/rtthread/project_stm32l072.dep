@@ -1,7 +1,7 @@
 Dependencies for Project 'project', Target 'stm32l072': (DO NOT MODIFY !)
-F (app\application.c)(0x5B9632E4)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\application.o --omf_browse .\rtthread\application.crf --depend .\rtthread\application.d)
+F (app\application.c)(0x5B978D27)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\application.o --omf_browse .\rtthread\application.crf --depend .\rtthread\application.d)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -48,7 +48,7 @@ F (app\ledapp.c)(0x5B90C611)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otim
 I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 I (..\..\include\rthw.h)(0x5B90C646)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -111,7 +111,7 @@ I (Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_wwdg.h)(0x5B7E6CC4)
 F (board\board.c)(0x5B9236BF)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\board.o --omf_browse .\rtthread\board.crf --depend .\rtthread\board.d)
 I (..\..\include\rthw.h)(0x5B90C646)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -203,7 +203,7 @@ I (Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B7E6CC4)
 I (Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_wwdg.h)(0x5B7E6CC4)
 I (Inc\stm32l0xx_it.h)(0x5B90C611)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -220,7 +220,7 @@ I (..\..\include\libc/libc_fdset.h)(0x5B90C646)
 I (..\..\include\rtservice.h)(0x5B90C646)
 I (..\..\include\rtm.h)(0x5B90C646)
 I (..\..\components\finsh\finsh_api.h)(0x5B90C635)
-F (board\drv_usart.c)(0x5B930E1E)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\drv_usart.o --omf_browse .\rtthread\drv_usart.crf --depend .\rtthread\drv_usart.d)
+F (board\drv_usart.c)(0x5B974EA2)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\drv_usart.o --omf_browse .\rtthread\drv_usart.crf --depend .\rtthread\drv_usart.d)
 I (board\drv_usart.h)(0x5B0FC4AD)
 I (board\board.h)(0x5B91C5E7)
 I (Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h)(0x5B92465A)
@@ -258,7 +258,7 @@ I (Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_uart_ex.h)(0x5B7E6CC4)
 I (Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_wwdg.h)(0x5B7E6CC4)
 I (..\..\components\drivers\include\rtdevice.h)(0x5B90C633)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -289,7 +289,7 @@ F (board\drv_gpio.c)(0x5B8F861E)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -
 I (board\drv_gpio.h)(0x5B8E9ED2)
 I (..\..\include\rthw.h)(0x5B90C646)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -1807,10 +1807,10 @@ I (Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_utils.h)(0x5B7E6CC4)
 I (Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_system.h)(0x5B7E6CC4)
 I (Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_ll_pwr.h)(0x5B7E6CC4)
 F (Drivers\CMSIS\Device\ST\STM32L0xx\Source\Templates\arm\startup_stm32l071xx.s)(0x5B7E6C92)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32L071xx SETA 1"--list startup_stm32l071xx.lst --xref -o .\rtthread\startup_stm32l071xx.o --depend .\rtthread\startup_stm32l071xx.d)
-F (packages\at_device-latest\at_socket_esp8266.c)(0x5B970D1E)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\at_socket_esp8266.o --omf_browse .\rtthread\at_socket_esp8266.crf --depend .\rtthread\at_socket_esp8266.d)
+F (packages\at_device-latest\at_socket_esp8266.c)(0x5B978DAE)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\at_socket_esp8266.o --omf_browse .\rtthread\at_socket_esp8266.crf --depend .\rtthread\at_socket_esp8266.d)
 I (..\..\components\net\at\include\at.h)(0x5B965EBF)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -1855,7 +1855,7 @@ I (E:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x588B8344)
 F (..\..\src\clock.c)(0x5B90C649)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\clock.o --omf_browse .\rtthread\clock.crf --depend .\rtthread\clock.d)
 I (..\..\include\rthw.h)(0x5B90C646)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -1876,7 +1876,7 @@ I (..\..\components\finsh\finsh_api.h)(0x5B90C635)
 F (..\..\src\components.c)(0x5B92064A)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\components.o --omf_browse .\rtthread\components.crf --depend .\rtthread\components.d)
 I (..\..\include\rthw.h)(0x5B90C646)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -1896,7 +1896,7 @@ I (..\..\include\rtm.h)(0x5B90C646)
 I (..\..\components\finsh\finsh_api.h)(0x5B90C635)
 F (..\..\src\device.c)(0x5B90C649)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\device.o --omf_browse .\rtthread\device.crf --depend .\rtthread\device.d)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -1927,7 +1927,7 @@ I (..\..\components\drivers\include\drivers/pin.h)(0x5B90C632)
 F (..\..\src\idle.c)(0x5B90C649)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\idle.o --omf_browse .\rtthread\idle.crf --depend .\rtthread\idle.d)
 I (..\..\include\rthw.h)(0x5B90C646)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -1947,7 +1947,7 @@ I (..\..\include\rtm.h)(0x5B90C646)
 I (..\..\components\finsh\finsh_api.h)(0x5B90C635)
 F (..\..\src\ipc.c)(0x5B90C649)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\ipc.o --omf_browse .\rtthread\ipc.crf --depend .\rtthread\ipc.d)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -1969,7 +1969,7 @@ I (..\..\include\rthw.h)(0x5B90C646)
 F (..\..\src\irq.c)(0x5B90C649)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\irq.o --omf_browse .\rtthread\irq.crf --depend .\rtthread\irq.d)
 I (..\..\include\rthw.h)(0x5B90C646)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -1989,7 +1989,7 @@ I (..\..\include\rtm.h)(0x5B90C646)
 I (..\..\components\finsh\finsh_api.h)(0x5B90C635)
 F (..\..\src\kservice.c)(0x5B90C649)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\kservice.o --omf_browse .\rtthread\kservice.crf --depend .\rtthread\kservice.d)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2011,7 +2011,7 @@ I (..\..\include\rthw.h)(0x5B90C646)
 F (..\..\src\mem.c)(0x5B90C649)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\mem.o --omf_browse .\rtthread\mem.crf --depend .\rtthread\mem.d)
 I (..\..\include\rthw.h)(0x5B90C646)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2037,7 +2037,7 @@ I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
 F (..\..\src\mempool.c)(0x5B90C649)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\mempool.o --omf_browse .\rtthread\mempool.crf --depend .\rtthread\mempool.d)
 I (..\..\include\rthw.h)(0x5B90C646)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2057,7 +2057,7 @@ I (..\..\include\rtm.h)(0x5B90C646)
 I (..\..\components\finsh\finsh_api.h)(0x5B90C635)
 F (..\..\src\object.c)(0x5B90C649)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\object.o --omf_browse .\rtthread\object.crf --depend .\rtthread\object.d)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2078,7 +2078,7 @@ I (..\..\components\finsh\finsh_api.h)(0x5B90C635)
 I (..\..\include\rthw.h)(0x5B90C646)
 F (..\..\src\scheduler.c)(0x5B90C649)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\scheduler.o --omf_browse .\rtthread\scheduler.crf --depend .\rtthread\scheduler.d)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2102,7 +2102,7 @@ I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
 I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
 I (..\..\include\rthw.h)(0x5B90C646)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2121,7 +2121,7 @@ I (..\..\include\rtm.h)(0x5B90C646)
 I (..\..\components\finsh\finsh_api.h)(0x5B90C635)
 F (..\..\src\thread.c)(0x5B90C649)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\thread.o --omf_browse .\rtthread\thread.crf --depend .\rtthread\thread.d)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2142,7 +2142,7 @@ I (..\..\components\finsh\finsh_api.h)(0x5B90C635)
 I (..\..\include\rthw.h)(0x5B90C646)
 F (..\..\src\timer.c)(0x5B90C649)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\timer.o --omf_browse .\rtthread\timer.crf --depend .\rtthread\timer.d)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2163,7 +2163,7 @@ I (..\..\components\finsh\finsh_api.h)(0x5B90C635)
 I (..\..\include\rthw.h)(0x5B90C646)
 F (..\..\libcpu\arm\cortex-m0\cpuport.c)(0x5B90C646)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\cpuport.o --omf_browse .\rtthread\cpuport.crf --depend .\rtthread\cpuport.d)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2184,7 +2184,7 @@ I (..\..\components\finsh\finsh_api.h)(0x5B90C635)
 F (..\..\libcpu\arm\cortex-m0\context_rvds.S)(0x5B90C646)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32L071xx SETA 1"--list context_rvds.lst --xref -o .\rtthread\context_rvds.o --depend .\rtthread\context_rvds.d)
 F (..\..\libcpu\arm\common\backtrace.c)(0x5B90C646)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\backtrace.o --omf_browse .\rtthread\backtrace.crf --depend .\rtthread\backtrace.d)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2205,7 +2205,7 @@ I (..\..\components\finsh\finsh_api.h)(0x5B90C635)
 F (..\..\libcpu\arm\common\div0.c)(0x5B90C646)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\div0.o --omf_browse .\rtthread\div0.crf --depend .\rtthread\div0.d)
 F (..\..\libcpu\arm\common\showmem.c)(0x5B90C646)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\showmem.o --omf_browse .\rtthread\showmem.crf --depend .\rtthread\showmem.d)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2231,7 +2231,7 @@ I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
 I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
 I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x588B8344)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2271,7 +2271,7 @@ I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
 I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
 I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x588B8344)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2312,7 +2312,7 @@ I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
 I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
 I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x588B8344)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2351,7 +2351,7 @@ I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
 I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
 I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x588B8344)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2388,7 +2388,7 @@ F (..\..\components\dfs\src\poll.c)(0x5B90C62F)(--c99 -c --cpu Cortex-M0+ -D__MI
 I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
 I (..\..\include\rthw.h)(0x5B90C646)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2433,7 +2433,7 @@ I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
 I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
 I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x588B8344)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2468,7 +2468,7 @@ I (..\..\components\libc\compilers\armlibc\sys/types.h)(0x5B90C635)
 I (..\..\components\dfs\include\dfs_select.h)(0x5B90C62E)
 F (..\..\components\dfs\filesystems\devfs\devfs.c)(0x5B90C628)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\devfs.o --omf_browse .\rtthread\devfs.crf --depend .\rtthread\devfs.d)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2506,7 +2506,7 @@ I (..\..\components\dfs\filesystems\devfs\devfs.h)(0x5B90C628)
 F (..\..\components\drivers\misc\pin.c)(0x5B90C633)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\pin.o --omf_browse .\rtthread\pin.crf --depend .\rtthread\pin.d)
 I (..\..\components\drivers\include\drivers/pin.h)(0x5B90C632)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2541,7 +2541,7 @@ I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
 F (..\..\components\drivers\serial\serial.c)(0x5B90C633)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\serial.o --omf_browse .\rtthread\serial.crf --depend .\rtthread\serial.d)
 I (..\..\include\rthw.h)(0x5B90C646)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2583,7 +2583,7 @@ I (..\..\components\libc\compilers\armlibc\sys/types.h)(0x5B90C635)
 F (..\..\components\drivers\src\completion.c)(0x5B90C634)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\completion.o --omf_browse .\rtthread\completion.crf --depend .\rtthread\completion.d)
 I (..\..\include\rthw.h)(0x5B90C646)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2613,7 +2613,7 @@ I (..\..\components\drivers\include\drivers/serial.h)(0x5B922A99)
 I (..\..\components\drivers\include\drivers/pin.h)(0x5B90C632)
 F (..\..\components\drivers\src\dataqueue.c)(0x5B90C634)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\dataqueue.o --omf_browse .\rtthread\dataqueue.crf --depend .\rtthread\dataqueue.d)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2645,7 +2645,7 @@ I (..\..\include\rthw.h)(0x5B90C646)
 F (..\..\components\drivers\src\pipe.c)(0x5B90C635)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\pipe.o --omf_browse .\rtthread\pipe.crf --depend .\rtthread\pipe.d)
 I (..\..\include\rthw.h)(0x5B90C646)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2685,7 +2685,7 @@ I (..\..\components\libc\compilers\armlibc\sys/time.h)(0x5B90C635)
 I (..\..\components\libc\compilers\armlibc\sys/types.h)(0x5B90C635)
 F (..\..\components\drivers\src\ringbuffer.c)(0x5B90C635)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\ringbuffer.o --omf_browse .\rtthread\ringbuffer.crf --depend .\rtthread\ringbuffer.d)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2718,7 +2718,7 @@ F (..\..\components\drivers\src\waitqueue.c)(0x5B90C635)(--c99 -c --cpu Cortex-M
 I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
 I (..\..\include\rthw.h)(0x5B90C646)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2748,7 +2748,7 @@ I (..\..\components\drivers\include\drivers/pin.h)(0x5B90C632)
 F (..\..\components\drivers\src\workqueue.c)(0x5B90C635)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\workqueue.o --omf_browse .\rtthread\workqueue.crf --depend .\rtthread\workqueue.d)
 I (..\..\include\rthw.h)(0x5B90C646)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2779,7 +2779,7 @@ I (..\..\components\drivers\include\drivers/pin.h)(0x5B90C632)
 F (..\..\components\finsh\shell.c)(0x5B90C635)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\shell.o --omf_browse .\rtthread\shell.crf --depend .\rtthread\shell.d)
 I (..\..\include\rthw.h)(0x5B90C646)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2821,7 +2821,7 @@ I (..\..\components\dfs\include\dfs_fs.h)(0x5B90C62E)
 F (..\..\components\finsh\symbol.c)(0x5B90C635)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\symbol.o --omf_browse .\rtthread\symbol.crf --depend .\rtthread\symbol.d)
 I (..\..\components\finsh\finsh.h)(0x5B90C635)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2845,7 +2845,7 @@ I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
 I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
 F (..\..\components\finsh\cmd.c)(0x5B90C635)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\cmd.o --omf_browse .\rtthread\cmd.crf --depend .\rtthread\cmd.d)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2871,7 +2871,7 @@ I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
 F (..\..\components\finsh\msh.c)(0x5B90C635)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\msh.o --omf_browse .\rtthread\msh.crf --depend .\rtthread\msh.d)
 I (..\..\components\finsh\msh.h)(0x5B90C635)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2911,7 +2911,7 @@ I (..\..\components\drivers\include\drivers/pin.h)(0x5B90C632)
 I (..\..\components\dfs\include\dfs_fs.h)(0x5B90C62E)
 F (..\..\components\finsh\msh_cmd.c)(0x5B90C635)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\msh_cmd.o --omf_browse .\rtthread\msh_cmd.crf --depend .\rtthread\msh_cmd.d)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2951,7 +2951,7 @@ I (..\..\components\drivers\include\drivers/pin.h)(0x5B90C632)
 I (..\..\components\dfs\include\dfs_fs.h)(0x5B90C62E)
 F (..\..\components\finsh\msh_file.c)(0x5B90C635)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\msh_file.o --omf_browse .\rtthread\msh_file.crf --depend .\rtthread\msh_file.d)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -2993,7 +2993,7 @@ F (..\..\components\libc\compilers\armlibc\libc.c)(0x5B90C635)(--c99 -c --cpu Co
 I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -3015,7 +3015,7 @@ I (..\..\components\libc\compilers\armlibc\libc.h)(0x5B90C635)
 I (E:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
 F (..\..\components\libc\compilers\armlibc\mem_std.c)(0x5B90C635)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\mem_std.o --omf_browse .\rtthread\mem_std.crf --depend .\rtthread\mem_std.d)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -3038,7 +3038,7 @@ I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
 I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -3076,7 +3076,7 @@ F (..\..\components\libc\compilers\armlibc\stubs.c)(0x5B90C635)(--c99 -c --cpu C
 I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
 I (E:\Keil_v5\ARM\ARMCC\include\rt_sys.h)(0x588B8344)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -3118,7 +3118,7 @@ I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x588B8344)
 I (..\..\components\libc\compilers\armlibc\sys/types.h)(0x5B90C635)
 I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -3137,7 +3137,7 @@ I (..\..\components\finsh\finsh_api.h)(0x5B90C635)
 F (..\..\components\net\at\src\at_cli.c)(0x5B90C635)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\at_cli.o --omf_browse .\rtthread\at_cli.crf --depend .\rtthread\at_cli.d)
 I (..\..\components\net\at\include\at.h)(0x5B965EBF)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -3172,7 +3172,7 @@ I (..\..\include\rthw.h)(0x5B90C646)
 F (..\..\components\net\at\src\at_utils.c)(0x5B90C635)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\at_utils.o --omf_browse .\rtthread\at_utils.crf --depend .\rtthread\at_utils.d)
 I (..\..\components\net\at\include\at.h)(0x5B965EBF)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -3193,10 +3193,10 @@ I (..\..\components\finsh\finsh_api.h)(0x5B90C635)
 I (..\..\include\rtdbg.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
 I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
-F (..\..\components\net\at\src\at_client.c)(0x5B9394CA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\at_client.o --omf_browse .\rtthread\at_client.crf --depend .\rtthread\at_client.d)
+F (..\..\components\net\at\src\at_client.c)(0x5B978B73)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\at_client.o --omf_browse .\rtthread\at_client.crf --depend .\rtthread\at_client.d)
 I (..\..\components\net\at\include\at.h)(0x5B965EBF)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -3221,7 +3221,7 @@ I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
 F (..\..\components\net\at\at_socket\at_socket.c)(0x5B962A56)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\at_socket.o --omf_browse .\rtthread\at_socket.crf --depend .\rtthread\at_socket.d)
 I (..\..\components\net\at\include\at.h)(0x5B965EBF)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -3270,7 +3270,7 @@ I (..\..\components\net\sal_socket\include\sal_type.h)(0x5B90C641)
 I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
 I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -3289,7 +3289,7 @@ I (..\..\include\rtm.h)(0x5B90C646)
 I (..\..\components\finsh\finsh_api.h)(0x5B90C635)
 F (..\..\components\net\sal_socket\src\sal_socket.c)(0x5B90C641)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\sal_socket.o --omf_browse .\rtthread\sal_socket.crf --depend .\rtthread\sal_socket.d)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -3332,7 +3332,7 @@ I (..\..\components\dfs\include\dfs_fs.h)(0x5B90C62E)
 I (..\..\include\rtdbg.h)(0x5B90C646)
 F (..\..\components\net\sal_socket\socket\net_netdb.c)(0x5B90C641)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\net_netdb.o --omf_browse .\rtthread\net_netdb.crf --depend .\rtthread\net_netdb.d)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -3358,7 +3358,7 @@ I (..\..\components\net\sal_socket\include\sal_type.h)(0x5B90C641)
 I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
 F (..\..\components\net\sal_socket\impl\af_inet_at.c)(0x5B90C641)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\af_inet_at.o --omf_browse .\rtthread\af_inet_at.crf --depend .\rtthread\af_inet_at.d)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -3413,7 +3413,7 @@ I (E:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
 I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
 I (E:\Keil_v5\ARM\ARMCC\include\time.h)(0x588B8344)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -3451,7 +3451,7 @@ I (..\..\components\net\sal_socket\include\sal_ipaddr.h)(0x5B90C641)
 I (..\..\components\net\sal_socket\include\sal_type.h)(0x5B90C641)
 F (..\..\components\net\sal_socket\dfs_net\dfs_net.c)(0x5B90C641)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O3 -Otime --apcs=interwork --split_sections -Iapp -I. -Iboard -IDrivers\CMSIS\Device\ST\STM32L0xx\Include -IDrivers\STM32L0xx_HAL_Driver\Inc -IInc -Idrivers -Idrivers..\Drivers\CMSIS\Device\ST\STM32L0xx\Include -IDriversSTM32L0xx_HAL_Driver\Inc -IDriversCMSIS\Device\ST\STM32L0xx\Include -IDrivers\CMSIS\Include -Ipackages\at_device-latest -I..\..\include -I..\..\libcpu\arm\cortex-m0 -I..\..\libcpu\arm\common -I..\..\components\dfs\include -I..\..\components\dfs\filesystems\devfs -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\drivers\include -I..\..\components\finsh -I..\..\components\libc\compilers\armlibc -I..\..\components\net\at\include -I..\..\components\net\at\at_socket -I..\..\components\net\sal_socket\include -I..\..\components\net\sal_socket\include\socket -I..\..\components\net\sal_socket\impl -I..\..\components\net\sal_socket\include\dfs_net -I..\..\components\net\sal_socket\include\dfs_net\sys_select -I..\..\components\net\sal_socket\include\socket\sys_socket -I..\..\components\net\sal_socket\include-I C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32L071xx -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32L071xx-o .\rtthread\dfs_net.o --omf_browse .\rtthread\dfs_net.crf --depend .\rtthread\dfs_net.d)
 I (..\..\include\rtthread.h)(0x5B90C646)
-I (.\rtconfig.h)(0x5B95C1C1)
+I (.\rtconfig.h)(0x5B97639F)
 I (..\..\include\rtdebug.h)(0x5B91C8F6)
 I (..\..\include\rtdef.h)(0x5B90C646)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)

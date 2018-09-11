@@ -283,8 +283,7 @@ int at_resp_parse_line_args_by_kw(at_response_t resp, const char *keyword, const
  *        -1 : response status error
  *        -2 : wait timeout
  */
-int at_obj_exec_cmd(at_client_t client, at_response_t resp, const char *cmd_expr, ...)
-{
+int at_obj_exec_cmd(at_client_t client, at_response_t resp, const char *cmd_expr, ...){
     va_list args;
     rt_size_t cmd_size = 0;
     rt_err_t result = RT_EOK;
@@ -304,14 +303,14 @@ int at_obj_exec_cmd(at_client_t client, at_response_t resp, const char *cmd_expr
     client->resp = resp;		//注意
 
     va_start(args, cmd_expr);
-    at_vprintfln(client->device, cmd_expr, args);
+    at_vprintfln(client->device, cmd_expr, args);		//IO框架 串口写数据
     va_end(args);
 
 		
     if (resp != RT_NULL)
     {
         resp->line_counts = 0;
-        if (rt_sem_take(client->resp_notice, resp->timeout) != RT_EOK)
+        if (rt_sem_take(client->resp_notice, resp->timeout) != RT_EOK)		//拿不到信号量？
         {
             cmd = at_get_last_cmd(&cmd_size);
             LOG_E("execute command (%.*s) timeout (%d ticks)!", cmd_size, cmd, resp->timeout);
@@ -319,6 +318,7 @@ int at_obj_exec_cmd(at_client_t client, at_response_t resp, const char *cmd_expr
             result = -RT_ETIMEOUT;
             goto __exit;
         }
+				
         if (client->resp_status != AT_RESP_OK)
         {
             cmd = at_get_last_cmd(&cmd_size);
@@ -326,7 +326,9 @@ int at_obj_exec_cmd(at_client_t client, at_response_t resp, const char *cmd_expr
             result = -RT_ERROR;
             goto __exit;
         }
+				
     }
+		rt_sem_release(client->resp_notice);
 
 __exit:
     client->resp = RT_NULL;
