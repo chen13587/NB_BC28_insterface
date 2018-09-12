@@ -387,18 +387,17 @@ ARM Macro Assembler    Page 6
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0+ --apcs=inter
 work --depend=.\rtthread\startup_stm32l071xx.d -o.\rtthread\startup_stm32l071xx
-.o -IC:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE -IE:\Keil_v5
+.o -IF:\work\ÈÎÎñ\rt-thread\bsp\stm32l072\RTE -ID:\Keil_v5\ARM\PACK\Keil\STM32L
 
 
 
 ARM Macro Assembler    Page 7 
 
 
-\ARM\PACK\Keil\STM32L0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include -I
-E:\Keil_v5\ARM\CMSIS\Include --predefine="__MICROLIB SETA 1" --predefine="__UVI
-SION_VERSION SETA 514" --predefine="STM32L071xx SETA 1" --list=startup_stm32l07
-1xx.lst Drivers\CMSIS\Device\ST\STM32L0xx\Source\Templates\arm\startup_stm32l07
-1xx.s
+0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include -ID:\Keil_v5\ARM\CMSIS\
+Include --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 514
+" --predefine="STM32L071xx SETA 1" --list=startup_stm32l071xx.lst Drivers\CMSIS
+\Device\ST\STM32L0xx\Source\Templates\arm\startup_stm32l071xx.s
 
 
 

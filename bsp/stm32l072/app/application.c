@@ -160,12 +160,14 @@ int main(void){
 	at_socket_device_init();
 	
 	for(;;){
+		//while(1);
 		if(0!=(sock=at_socket(AF_INET,SOCK_DGRAM,0))){
 			sockadd.sin_port=htons(5683);
 			sockadd.sin_addr.s_addr=inet_addr("180.101.147.115");
 			sockadd.sin_family=AF_INET;
 			
 			if(at_bind(sock,(struct sockaddr*)&sockadd,sizeof(sockadd))>=0){
+				
 				for(;;){
 					at_send(sock,"hello",strlen("hello"),0);
 					//rt_kprintf("System run\r\n");

@@ -4,7 +4,7 @@
 .\rtthread\drv_usart.o: Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h
 .\rtthread\drv_usart.o: Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l071xx.h
 .\rtthread\drv_usart.o: Drivers\CMSIS\Include\core_cm0plus.h
-.\rtthread\drv_usart.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\rtthread\drv_usart.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\rtthread\drv_usart.o: Drivers\CMSIS\Include\core_cmInstr.h
 .\rtthread\drv_usart.o: Drivers\CMSIS\Include\cmsis_armcc.h
 .\rtthread\drv_usart.o: Drivers\CMSIS\Include\core_cmFunc.h
@@ -16,7 +16,7 @@
 .\rtthread\drv_usart.o: Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h
 .\rtthread\drv_usart.o: Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h
 .\rtthread\drv_usart.o: Drivers\STM32L0xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h
-.\rtthread\drv_usart.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\rtthread\drv_usart.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\rtthread\drv_usart.o: Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_rcc_ex.h
 .\rtthread\drv_usart.o: Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio.h
 .\rtthread\drv_usart.o: Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_gpio_ex.h
@@ -40,16 +40,16 @@
 .\rtthread\drv_usart.o: .\rtconfig.h
 .\rtthread\drv_usart.o: ..\..\include\rtdebug.h
 .\rtthread\drv_usart.o: ..\..\include\rtdef.h
-.\rtthread\drv_usart.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\rtthread\drv_usart.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\rtthread\drv_usart.o: ..\..\include\rtlibc.h
 .\rtthread\drv_usart.o: ..\..\include\libc/libc_stat.h
-.\rtthread\drv_usart.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+.\rtthread\drv_usart.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
 .\rtthread\drv_usart.o: ..\..\include\libc/libc_errno.h
 .\rtthread\drv_usart.o: ..\..\include\libc/libc_fcntl.h
 .\rtthread\drv_usart.o: ..\..\include\libc/libc_ioctl.h
 .\rtthread\drv_usart.o: ..\..\include\libc/libc_dirent.h
 .\rtthread\drv_usart.o: ..\..\include\libc/libc_signal.h
-.\rtthread\drv_usart.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\signal.h
+.\rtthread\drv_usart.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\signal.h
 .\rtthread\drv_usart.o: ..\..\include\libc/libc_fdset.h
 .\rtthread\drv_usart.o: ..\..\include\rtservice.h
 .\rtthread\drv_usart.o: ..\..\include\rtm.h
