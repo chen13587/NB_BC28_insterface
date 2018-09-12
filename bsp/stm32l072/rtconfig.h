@@ -4,7 +4,7 @@
 /* Automatically generated file; DO NOT EDIT. */
 /* RT-Thread Configuration */
 
-/* RT-Thread Kernel */
+
 
 #define RT_NAME_MAX 8
 #define RT_ALIGN_SIZE 4
