@@ -33,8 +33,8 @@ int at_client_test(int argc, char **argv)
         return -1;
     }
 
-    /* ´´½¨ÏìÓ¦½á¹¹Ìå£¬ÉèÖÃ×î´óÖ§³ÖÏìÓ¦Êı¾İ³¤¶ÈÎª 256 ×Ö½Ú
-    £¨×î´óÏìÓ¦³¤¶ÈÓÃ»§¸ù¾İÊµ¼ÊĞèÇó×Ô¶¨Òå£©£¬ÏìÓ¦Êı¾İĞĞÊıÎŞÏŞÖÆ£¬³¬Ê±Ê±¼äÎª 5 Ãë */
+    /* åˆ›å»ºå“åº”ç»“æ„ä½“ï¼Œè®¾ç½®æœ€å¤§æ”¯æŒå“åº”æ•°æ®é•¿åº¦ä¸º 256 å­—èŠ‚
+    ï¼ˆæœ€å¤§å“åº”é•¿åº¦ç”¨æˆ·æ ¹æ®å®é™…éœ€æ±‚è‡ªå®šä¹‰ï¼‰ï¼Œå“åº”æ•°æ®è¡Œæ•°æ— é™åˆ¶ï¼Œè¶…æ—¶æ—¶é—´ä¸º 5 ç§’ */
     resp = at_create_resp(256, 0, rt_tick_from_millisecond(5000));
     if (resp == RT_NULL)
     {
@@ -42,11 +42,11 @@ int at_client_test(int argc, char **argv)
         return -2;
     }
 
-    /* ¹Ø±Õ»ØÏÔ¹¦ÄÜ */
+    /* å…³é—­å›æ˜¾åŠŸèƒ½ */
     at_exec_cmd(resp, "ATE0");
 
-    /* AT  Client ·¢ËÍ²éÑ¯ IP µØÖ·ÃüÁî²¢½ÓÊÕ AT Server ÏìÓ¦ */
-    /* ÏìÓ¦Êı¾İ¼°ĞÅÏ¢´æ·ÅÔÚ resp ½á¹¹ÌåÖĞ */
+    /* AT  Client å‘é€æŸ¥è¯¢ IP åœ°å€å‘½ä»¤å¹¶æ¥æ”¶ AT Server å“åº” */
+    /* å“åº”æ•°æ®åŠä¿¡æ¯å­˜æ”¾åœ¨ resp ç»“æ„ä½“ä¸­ */
     result = at_exec_cmd(resp, "AT+CIFSR");
     if (result != RT_EOK)
     {
@@ -54,7 +54,7 @@ int at_client_test(int argc, char **argv)
         goto __exit;
     }
 
-    /* °´ĞĞÊıÑ­»·´òÓ¡½ÓÊÕµ½µÄÏìÓ¦Êı¾İ */
+    /* æŒ‰è¡Œæ•°å¾ªç¯æ‰“å°æ¥æ”¶åˆ°çš„å“åº”æ•°æ® */
     {
         const char *line_buffer = RT_NULL;
 
@@ -71,14 +71,14 @@ int at_client_test(int argc, char **argv)
             }
         }
     }
-    /* °´×Ô¶¨Òå±í´ïÊ½£¨sscanf ½âÎö·½Ê½£©½âÎöÊı¾İ£¬µÃµ½¶ÔÓ¦Êı¾İ */
+    /* æŒ‰è‡ªå®šä¹‰è¡¨è¾¾å¼ï¼ˆsscanf è§£ææ–¹å¼ï¼‰è§£ææ•°æ®ï¼Œå¾—åˆ°å¯¹åº”æ•°æ® */
     {
         char resp_arg[AT_CMD_MAX_LEN] = { 0 };
-        /* ×Ô¶¨ÒåÊı¾İ½âÎö±í´ïÊ½ £¬ÓÃÓÚ½âÎöÁ½Ë«ÒıºÅÖ®¼ä×Ö·û´®ĞÅÏ¢ */
+        /* è‡ªå®šä¹‰æ•°æ®è§£æè¡¨è¾¾å¼ ï¼Œç”¨äºè§£æä¸¤åŒå¼•å·ä¹‹é—´å­—ç¬¦ä¸²ä¿¡æ¯ */
         const char * resp_expr = "%*[^\"]\"%[^\"]\"";
 
         LOG_D(" Parse arguments");
-        /* ½âÎöÏìÓ¦Êı¾İÖĞµÚÒ»ĞĞÊı¾İ£¬µÃµ½¶ÔÓ¦ IP µØÖ· */
+        /* è§£æå“åº”æ•°æ®ä¸­ç¬¬ä¸€è¡Œæ•°æ®ï¼Œå¾—åˆ°å¯¹åº” IP åœ°å€ */
         if (at_resp_parse_line_args(resp, 1, resp_expr, resp_arg) == 1)
         {
             LOG_D("Station IP  : %s", resp_arg);
@@ -89,7 +89,7 @@ int at_client_test(int argc, char **argv)
             LOG_E("Parse error, current line buff : %s", at_resp_get_line(resp, 4));
         }
 
-        /* ½âÎöÏìÓ¦Êı¾İÖĞµÚ¶şĞĞÊı¾İ£¬µÃµ½¶ÔÓ¦ MAC µØÖ· */
+        /* è§£æå“åº”æ•°æ®ä¸­ç¬¬äºŒè¡Œæ•°æ®ï¼Œå¾—åˆ°å¯¹åº” MAC åœ°å€ */
         if (at_resp_parse_line_args(resp, 2, resp_expr, resp_arg) == 1)
         {
             LOG_D("Station MAC : %s", resp_arg);
@@ -103,13 +103,13 @@ int at_client_test(int argc, char **argv)
 __exit:
     if(resp)
     {
-        /* É¾³ı resp ½á¹¹Ìå */
+        /* åˆ é™¤ resp ç»“æ„ä½“ */
         at_delete_resp(resp);
     }
 
     return result;
 }
-/* ÉèÖÃµ±Ç° AT ¿Í»§¶Ë×î´óÖ§³ÖµÄÒ»´Î½ÓÊÕÊı¾İµÄ³¤¶È */
+/* è®¾ç½®å½“å‰ AT å®¢æˆ·ç«¯æœ€å¤§æ”¯æŒçš„ä¸€æ¬¡æ¥æ”¶æ•°æ®çš„é•¿åº¦ */
 #define AT_CLIENT_RECV_BUFF_LEN         512
 int at_client_test_init(int argc, char **argv)
 {
@@ -125,14 +125,14 @@ int at_client_test_init(int argc, char **argv)
 }
 #ifdef FINSH_USING_MSH
 #include <finsh.h>
-/* Ìí¼Ó AT Client ²âÊÔÃüÁîµ½ shell  */
+/* æ·»åŠ  AT Client æµ‹è¯•å‘½ä»¤åˆ° shell  */
 MSH_CMD_EXPORT(at_client_test, AT client send cmd and get response);
-/* Ìí¼Ó AT Client ³õÊ¼»¯ÃüÁîµ½ shell  */
+/* æ·»åŠ  AT Client åˆå§‹åŒ–å‘½ä»¤åˆ° shell  */
 MSH_CMD_EXPORT_ALIAS(at_client_test_init, at_client_init, initialize AT client);
 #endif
 
 /*
-³õÊ¼»¯ 
+åˆå§‹åŒ– 
 ok! connect
 receive data
 
@@ -141,16 +141,16 @@ receive data
 
 
 /*
-iap¹Ì¼şÉı¼¶Æ½Ì¨:
+iapå›ºä»¶å‡çº§å¹³å°:
 
 https://180.101.147.135:8843/index.html#/device
-ÕËºÅ£ºmodou2017
-ÃÜÂë£ºCldz2017~
+è´¦å·ï¼šmodou2017
+å¯†ç ï¼šCldz2017~
 */
 
 /*
-Éè±¸Á¬½ÓIP	180.101.147.115
-¶Ë¿Ú 5683
+è®¾å¤‡è¿æ¥IP:	180.101.147.115
+ç«¯å£: 5683
 */
 
 
