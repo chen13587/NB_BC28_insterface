@@ -254,7 +254,7 @@ int at_resp_parse_line_args_by_kw(at_response_t resp, const char *keyword, const
     va_list args;
     int resp_args_num = 0;
     const char *resp_line_buf = RT_NULL;
-
+		
     RT_ASSERT(resp);
     RT_ASSERT(resp_expr);
 

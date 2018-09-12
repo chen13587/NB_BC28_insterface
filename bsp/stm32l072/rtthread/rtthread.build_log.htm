@@ -32,24 +32,26 @@ packages\at_device-latest\at_socket_esp8266.c(218): warning:  #177-D: variable "
                 size_t i,offset=0,t=0;
 packages\at_device-latest\at_socket_esp8266.c(439): warning:  #177-D: variable "socket"  was declared but never referenced
       int socket = 0;
-packages\at_device-latest\at_socket_esp8266.c(555): warning:  #144-D: a value of type "void (*)(char *, rt_size_t)" cannot be used to initialize an entity of type "void (*)(const char *, rt_size_t)"
+packages\at_device-latest\at_socket_esp8266.c(559): warning:  #144-D: a value of type "void (*)(char *, rt_size_t)" cannot be used to initialize an entity of type "void (*)(const char *, rt_size_t)"
           {"+CGATT:0",   "\r\n",           urc_iot_connect_status},
-packages\at_device-latest\at_socket_esp8266.c(556): warning:  #144-D: a value of type "void (*)(char *, rt_size_t)" cannot be used to initialize an entity of type "void (*)(const char *, rt_size_t)"
+packages\at_device-latest\at_socket_esp8266.c(560): warning:  #144-D: a value of type "void (*)(char *, rt_size_t)" cannot be used to initialize an entity of type "void (*)(const char *, rt_size_t)"
           {"+CGATT:1",  "\r\n",           urc_iot_connect_status},
+packages\at_device-latest\at_socket_esp8266.c(578): warning:  #177-D: variable "wait_num"  was declared but never referenced
+                int wait_num=20,arg=0;
 packages\at_device-latest\at_socket_esp8266.c(49): warning:  #177-D: function "at_socket_event_recv"  was declared but never referenced
   static int at_socket_event_recv(uint32_t event, uint32_t timeout, rt_uint8_t option)
 packages\at_device-latest\at_socket_esp8266.c(414): warning:  #177-D: function "urc_send_func"  was declared but never referenced
   static void urc_send_func(const char *data, rt_size_t size)
-packages\at_device-latest\at_socket_esp8266.c(514): warning:  #177-D: function "urc_busy_p_func"  was declared but never referenced
+packages\at_device-latest\at_socket_esp8266.c(518): warning:  #177-D: function "urc_busy_p_func"  was declared but never referenced
   static void urc_busy_p_func(const char *data, rt_size_t size)
-packages\at_device-latest\at_socket_esp8266.c(520): warning:  #177-D: function "urc_busy_s_func"  was declared but never referenced
+packages\at_device-latest\at_socket_esp8266.c(524): warning:  #177-D: function "urc_busy_s_func"  was declared but never referenced
   static void urc_busy_s_func(const char *data, rt_size_t size)
-packages\at_device-latest\at_socket_esp8266.c(527): warning:  #177-D: function "urc_func"  was declared but never referenced
+packages\at_device-latest\at_socket_esp8266.c(531): warning:  #177-D: function "urc_func"  was declared but never referenced
   static void urc_func(const char *data, rt_size_t size)
-packages\at_device-latest\at_socket_esp8266.c: 9 warnings, 0 errors
+packages\at_device-latest\at_socket_esp8266.c: 10 warnings, 0 errors
 linking...
-Program Size: Code=70828 RO-data=10152 RW-data=776 ZI-data=4504  
-".\rtthread\rtthread.bin" - 0 Error(s), 9 Warning(s).
+Program Size: Code=71164 RO-data=10148 RW-data=776 ZI-data=4504  
+".\rtthread\rtthread.bin" - 0 Error(s), 10 Warning(s).
 
 <h2>Collection of Component include folders:</h2>
   C:\Users\C00347\Desktop\work\task\rt-thread\bsp\stm32l072\RTE

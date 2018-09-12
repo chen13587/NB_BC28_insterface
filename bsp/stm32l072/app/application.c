@@ -155,33 +155,33 @@ https://180.101.147.135:8843/index.html#/device
 
 
 int main(void){
-//	int sock=0;
-//	struct sockaddr_in sockadd={0};
-//	//at_socket_device_init();
-//	
-//	for(;;){
-//		if(0!=(sock=at_socket(AF_INET,SOCK_DGRAM,0))){
-//			sockadd.sin_port=htons(5683);
-//			sockadd.sin_addr.s_addr=inet_addr("180.101.147.115");
-//			sockadd.sin_family=AF_INET;
-//			
-//			if(at_bind(sock,(struct sockaddr*)&sockadd,sizeof(sockadd))>=0){
-//				for(;;){
-//					at_send(sock,"hello",strlen("hello"),0);
-//					//rt_kprintf("System run\r\n");
-//					rt_thread_delay(rt_tick_from_millisecond(500));				
-//				}
-//			}else{
-//				rt_kprintf("----bind failed\r\n");
-//			}
-//		}else{
-//			rt_kprintf("----socket init failed\r\n");
-//		
-//		}
-//		rt_kprintf("System run\r\n");
-//		rt_thread_delay(rt_tick_from_millisecond(1000));				
-//	
-//	}
+	int sock=0;
+	struct sockaddr_in sockadd={0};
+	at_socket_device_init();
+	
+	for(;;){
+		if(0!=(sock=at_socket(AF_INET,SOCK_DGRAM,0))){
+			sockadd.sin_port=htons(5683);
+			sockadd.sin_addr.s_addr=inet_addr("180.101.147.115");
+			sockadd.sin_family=AF_INET;
+			
+			if(at_bind(sock,(struct sockaddr*)&sockadd,sizeof(sockadd))>=0){
+				for(;;){
+					at_send(sock,"hello",strlen("hello"),0);
+					//rt_kprintf("System run\r\n");
+					rt_thread_delay(rt_tick_from_millisecond(2000));				
+				}
+			}else{
+				rt_kprintf("----bind failed\r\n");
+			}
+		}else{
+			rt_kprintf("----socket init failed\r\n");
+		
+		}
+		rt_kprintf("System run\r\n");
+		rt_thread_delay(rt_tick_from_millisecond(1000));				
+	
+	}
 
 	
   return 0;
