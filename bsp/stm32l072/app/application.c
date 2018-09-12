@@ -169,7 +169,9 @@ int main(void){
 				for(;;){
 					at_send(sock,"hello",strlen("hello"),0);
 					//rt_kprintf("System run\r\n");
-					rt_thread_delay(rt_tick_from_millisecond(2000));				
+					rt_thread_delay(rt_tick_from_millisecond(2000));
+
+//					at_recv();
 				}
 			}else{
 				rt_kprintf("----bind failed\r\n");

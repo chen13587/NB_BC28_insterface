@@ -4792,445 +4792,445 @@ Image Symbol Table
     urc_ping_func                            0x080113a9   Thumb Code    64  at_socket_esp8266.o(i.urc_ping_func)
     i.urc_recv_func                          0x08011434   Section        0  at_socket_esp8266.o(i.urc_recv_func)
     urc_recv_func                            0x08011435   Thumb Code   288  at_socket_esp8266.o(i.urc_recv_func)
-    i.urc_send_bfsz_func                     0x08011618   Section        0  at_socket_esp8266.o(i.urc_send_bfsz_func)
-    urc_send_bfsz_func                       0x08011619   Thumb Code    46  at_socket_esp8266.o(i.urc_send_bfsz_func)
-    i.version                                0x0801166c   Section        0  cmd.o(i.version)
-    i.write                                  0x08011678   Section        0  dfs_posix.o(i.write)
-    .constdata                               0x080116bc   Section       72  drv_usart.o(.constdata)
-    drv_uart_ops                             0x080116c4   Data          20  drv_usart.o(.constdata)
-    __FUNCTION__                             0x080116d8   Data          14  drv_usart.o(.constdata)
-    __FUNCTION__                             0x080116e6   Data          12  drv_usart.o(.constdata)
-    __FUNCTION__                             0x080116f2   Data           9  drv_usart.o(.constdata)
-    __FUNCTION__                             0x080116fb   Data           9  drv_usart.o(.constdata)
-    .constdata                               0x08011704   Section     1432  drv_gpio.o(.constdata)
-    pins                                     0x08011704   Data        1344  drv_gpio.o(.constdata)
-    pin_irq_map                              0x08011c44   Data          64  drv_gpio.o(.constdata)
-    _stm32_pin_ops                           0x08011c84   Data          24  drv_gpio.o(.constdata)
-    .constdata                               0x08011c9c   Section       25  system_stm32l0xx.o(.constdata)
-    .constdata                               0x08011cb5   Section        8  system_stm32l0xx.o(.constdata)
-    .constdata                               0x08011cc0   Section      125  at_socket_esp8266.o(.constdata)
-    BC28_socket_ops                          0x08011cc0   Data          20  at_socket_esp8266.o(.constdata)
-    __FUNCTION__                             0x08011cd4   Data          20  at_socket_esp8266.o(.constdata)
-    __FUNCTION__                             0x08011ce8   Data          17  at_socket_esp8266.o(.constdata)
-    __FUNCTION__                             0x08011cf9   Data          20  at_socket_esp8266.o(.constdata)
-    __FUNCTION__                             0x08011d0d   Data          19  at_socket_esp8266.o(.constdata)
-    __FUNCTION__                             0x08011d20   Data          15  at_socket_esp8266.o(.constdata)
-    __FUNCTION__                             0x08011d2f   Data          14  at_socket_esp8266.o(.constdata)
-    .constdata                               0x08011d3d   Section       20  components.o(.constdata)
-    __FUNCTION__                             0x08011d3d   Data          20  components.o(.constdata)
-    .constdata                               0x08011d51   Section      216  device.o(.constdata)
-    __FUNCTION__                             0x08011d51   Data          15  device.o(.constdata)
-    __FUNCTION__                             0x08011d60   Data          21  device.o(.constdata)
-    __FUNCTION__                             0x08011d75   Data          15  device.o(.constdata)
-    __FUNCTION__                             0x08011d84   Data          18  device.o(.constdata)
-    __FUNCTION__                             0x08011d96   Data          15  device.o(.constdata)
-    __FUNCTION__                             0x08011da5   Data          15  device.o(.constdata)
-    __FUNCTION__                             0x08011db4   Data          16  device.o(.constdata)
-    __FUNCTION__                             0x08011dc4   Data          15  device.o(.constdata)
-    __FUNCTION__                             0x08011dd3   Data          16  device.o(.constdata)
-    __FUNCTION__                             0x08011de3   Data          18  device.o(.constdata)
-    __FUNCTION__                             0x08011df5   Data          26  device.o(.constdata)
-    __FUNCTION__                             0x08011e0f   Data          26  device.o(.constdata)
-    .constdata                               0x08011e29   Section       22  idle.o(.constdata)
-    __FUNCTION__                             0x08011e29   Data          22  idle.o(.constdata)
-    .constdata                               0x08011e3f   Section      503  ipc.o(.constdata)
-    __FUNCTION__                             0x08011e3f   Data          12  ipc.o(.constdata)
-    __FUNCTION__                             0x08011e4b   Data          14  ipc.o(.constdata)
-    __FUNCTION__                             0x08011e59   Data          14  ipc.o(.constdata)
-    __FUNCTION__                             0x08011e67   Data          14  ipc.o(.constdata)
-    __FUNCTION__                             0x08011e75   Data          12  ipc.o(.constdata)
-    __FUNCTION__                             0x08011e81   Data          15  ipc.o(.constdata)
-    __FUNCTION__                             0x08011e90   Data          15  ipc.o(.constdata)
-    __FUNCTION__                             0x08011e9f   Data          14  ipc.o(.constdata)
-    __FUNCTION__                             0x08011ead   Data          16  ipc.o(.constdata)
-    __FUNCTION__                             0x08011ebd   Data          16  ipc.o(.constdata)
-    __FUNCTION__                             0x08011ecd   Data          16  ipc.o(.constdata)
-    __FUNCTION__                             0x08011edd   Data          14  ipc.o(.constdata)
-    __FUNCTION__                             0x08011eeb   Data          17  ipc.o(.constdata)
-    __FUNCTION__                             0x08011efc   Data          17  ipc.o(.constdata)
-    __FUNCTION__                             0x08011f0d   Data          14  ipc.o(.constdata)
-    __FUNCTION__                             0x08011f1b   Data          16  ipc.o(.constdata)
-    __FUNCTION__                             0x08011f2b   Data          16  ipc.o(.constdata)
-    __FUNCTION__                             0x08011f3b   Data          16  ipc.o(.constdata)
-    __FUNCTION__                             0x08011f4b   Data          14  ipc.o(.constdata)
-    __FUNCTION__                             0x08011f59   Data          14  ipc.o(.constdata)
-    __FUNCTION__                             0x08011f67   Data          17  ipc.o(.constdata)
-    __FUNCTION__                             0x08011f78   Data          11  ipc.o(.constdata)
-    __FUNCTION__                             0x08011f83   Data          13  ipc.o(.constdata)
-    __FUNCTION__                             0x08011f90   Data          13  ipc.o(.constdata)
-    __FUNCTION__                             0x08011f9d   Data          13  ipc.o(.constdata)
-    __FUNCTION__                             0x08011faa   Data          16  ipc.o(.constdata)
-    __FUNCTION__                             0x08011fba   Data          11  ipc.o(.constdata)
-    __FUNCTION__                             0x08011fc5   Data          14  ipc.o(.constdata)
-    __FUNCTION__                             0x08011fd3   Data          11  ipc.o(.constdata)
-    __FUNCTION__                             0x08011fde   Data          13  ipc.o(.constdata)
-    __FUNCTION__                             0x08011feb   Data          13  ipc.o(.constdata)
-    __FUNCTION__                             0x08011ff8   Data          13  ipc.o(.constdata)
-    __FUNCTION__                             0x08012005   Data          11  ipc.o(.constdata)
-    __FUNCTION__                             0x08012010   Data          13  ipc.o(.constdata)
-    __FUNCTION__                             0x0801201d   Data          11  ipc.o(.constdata)
-    __FUNCTION__                             0x08012028   Data          14  ipc.o(.constdata)
-    .constdata                               0x08012036   Section      290  kservice.o(.constdata)
-    small_digits                             0x08012136   Data          17  kservice.o(.constdata)
-    large_digits                             0x08012147   Data          17  kservice.o(.constdata)
-    .constdata                               0x08012158   Section       70  mem.o(.constdata)
-    __FUNCTION__                             0x08012158   Data           8  mem.o(.constdata)
-    __FUNCTION__                             0x08012160   Data          11  mem.o(.constdata)
-    __FUNCTION__                             0x0801216b   Data          20  mem.o(.constdata)
-    __FUNCTION__                             0x0801217f   Data          10  mem.o(.constdata)
-    __FUNCTION__                             0x08012189   Data          11  mem.o(.constdata)
-    __FUNCTION__                             0x08012194   Data          10  mem.o(.constdata)
-    .constdata                               0x0801219e   Section      128  object.o(.constdata)
-    __FUNCTION__                             0x0801219e   Data          15  object.o(.constdata)
-    __FUNCTION__                             0x080121ad   Data          17  object.o(.constdata)
-    __FUNCTION__                             0x080121be   Data          19  object.o(.constdata)
-    __FUNCTION__                             0x080121d1   Data          17  object.o(.constdata)
-    __FUNCTION__                             0x080121e2   Data          26  object.o(.constdata)
-    __FUNCTION__                             0x080121fc   Data          19  object.o(.constdata)
-    __FUNCTION__                             0x0801220f   Data          15  object.o(.constdata)
-    .constdata                               0x0801221e   Section       78  scheduler.o(.constdata)
-    __FUNCTION__                             0x0801221e   Data          26  scheduler.o(.constdata)
-    __FUNCTION__                             0x08012238   Data          26  scheduler.o(.constdata)
-    __FUNCTION__                             0x08012252   Data          26  scheduler.o(.constdata)
-    .constdata                               0x0801226c   Section      185  thread.o(.constdata)
-    __FUNCTION__                             0x0801226c   Data          16  thread.o(.constdata)
-    __FUNCTION__                             0x0801227c   Data          15  thread.o(.constdata)
-    __FUNCTION__                             0x0801228b   Data          18  thread.o(.constdata)
-    __FUNCTION__                             0x0801229d   Data          17  thread.o(.constdata)
-    __FUNCTION__                             0x080122ae   Data          17  thread.o(.constdata)
-    __FUNCTION__                             0x080122bf   Data          16  thread.o(.constdata)
-    __FUNCTION__                             0x080122cf   Data          18  thread.o(.constdata)
-    __FUNCTION__                             0x080122e1   Data          18  thread.o(.constdata)
-    __FUNCTION__                             0x080122f3   Data          17  thread.o(.constdata)
-    __FUNCTION__                             0x08012304   Data          18  thread.o(.constdata)
-    __FUNCTION__                             0x08012316   Data          15  thread.o(.constdata)
-    .constdata                               0x08012325   Section       92  timer.o(.constdata)
-    __FUNCTION__                             0x08012325   Data          14  timer.o(.constdata)
-    __FUNCTION__                             0x08012333   Data          16  timer.o(.constdata)
-    __FUNCTION__                             0x08012343   Data          16  timer.o(.constdata)
-    __FUNCTION__                             0x08012353   Data          15  timer.o(.constdata)
-    __FUNCTION__                             0x08012362   Data          14  timer.o(.constdata)
-    __FUNCTION__                             0x08012370   Data          17  timer.o(.constdata)
-    .constdata                               0x08012381   Section       35  dfs.o(.constdata)
-    __FUNCTION__                             0x08012381   Data           7  dfs.o(.constdata)
-    __FUNCTION__                             0x08012388   Data           9  dfs.o(.constdata)
-    __FUNCTION__                             0x08012391   Data          19  dfs.o(.constdata)
-    .constdata                               0x080123a4   Section       64  dfs_fs.o(.constdata)
-    __FUNCTION__                             0x080123a4   Data          22  dfs_fs.o(.constdata)
-    __FUNCTION__                             0x080123ba   Data          29  dfs_fs.o(.constdata)
-    .constdata                               0x080123e4   Section       36  devfs.o(.constdata)
-    _device_fops                             0x080123e4   Data          36  devfs.o(.constdata)
-    .constdata                               0x08012408   Section      161  devfs.o(.constdata)
-    _device_fs                               0x08012408   Data          40  devfs.o(.constdata)
-    __FUNCTION__                             0x08012430   Data          20  devfs.o(.constdata)
-    __FUNCTION__                             0x08012444   Data          19  devfs.o(.constdata)
-    __FUNCTION__                             0x08012457   Data          20  devfs.o(.constdata)
-    __FUNCTION__                             0x0801246b   Data          20  devfs.o(.constdata)
-    __FUNCTION__                             0x0801247f   Data          19  devfs.o(.constdata)
-    __FUNCTION__                             0x08012492   Data          23  devfs.o(.constdata)
-    .constdata                               0x080124a9   Section      125  pin.o(.constdata)
-    __FUNCTION__                             0x080124a9   Data          10  pin.o(.constdata)
-    __FUNCTION__                             0x080124b3   Data          11  pin.o(.constdata)
-    __FUNCTION__                             0x080124be   Data          13  pin.o(.constdata)
-    __FUNCTION__                             0x080124cb   Data          18  pin.o(.constdata)
-    __FUNCTION__                             0x080124dd   Data          18  pin.o(.constdata)
-    __FUNCTION__                             0x080124ef   Data          18  pin.o(.constdata)
-    __FUNCTION__                             0x08012501   Data          12  pin.o(.constdata)
-    __FUNCTION__                             0x0801250d   Data          13  pin.o(.constdata)
-    __FUNCTION__                             0x0801251a   Data          12  pin.o(.constdata)
-    .constdata                               0x08012528   Section      368  serial.o(.constdata)
-    _serial_fops                             0x08012528   Data          36  serial.o(.constdata)
-    __FUNCTION__                             0x0801254c   Data          17  serial.o(.constdata)
-    __FUNCTION__                             0x0801255d   Data          17  serial.o(.constdata)
-    __FUNCTION__                             0x0801256e   Data          16  serial.o(.constdata)
-    __FUNCTION__                             0x0801257e   Data          16  serial.o(.constdata)
-    __FUNCTION__                             0x0801258e   Data          15  serial.o(.constdata)
-    __FUNCTION__                             0x0801259d   Data          15  serial.o(.constdata)
-    __FUNCTION__                             0x080125ac   Data          29  serial.o(.constdata)
-    __FUNCTION__                             0x080125c9   Data          29  serial.o(.constdata)
-    __FUNCTION__                             0x080125e6   Data          29  serial.o(.constdata)
-    __FUNCTION__                             0x08012603   Data          15  serial.o(.constdata)
-    __FUNCTION__                             0x08012612   Data          15  serial.o(.constdata)
-    __FUNCTION__                             0x08012621   Data          15  serial.o(.constdata)
-    __FUNCTION__                             0x08012630   Data          16  serial.o(.constdata)
-    __FUNCTION__                             0x08012640   Data          15  serial.o(.constdata)
-    __FUNCTION__                             0x0801264f   Data          16  serial.o(.constdata)
-    __FUNCTION__                             0x0801265f   Data          18  serial.o(.constdata)
-    __FUNCTION__                             0x08012671   Data          22  serial.o(.constdata)
-    __FUNCTION__                             0x08012687   Data          17  serial.o(.constdata)
-    .constdata                               0x08012698   Section       57  completion.o(.constdata)
-    __FUNCTION__                             0x08012698   Data          19  completion.o(.constdata)
-    __FUNCTION__                             0x080126ab   Data          19  completion.o(.constdata)
-    __FUNCTION__                             0x080126be   Data          19  completion.o(.constdata)
-    .constdata                               0x080126d1   Section       75  dataqueue.o(.constdata)
-    __FUNCTION__                             0x080126d1   Data          19  dataqueue.o(.constdata)
-    __FUNCTION__                             0x080126e4   Data          19  dataqueue.o(.constdata)
-    __FUNCTION__                             0x080126f7   Data          18  dataqueue.o(.constdata)
-    __FUNCTION__                             0x08012709   Data          19  dataqueue.o(.constdata)
-    .constdata                               0x0801271c   Section      214  ringbuffer.o(.constdata)
-    __FUNCTION__                             0x0801271c   Data          19  ringbuffer.o(.constdata)
-    __FUNCTION__                             0x0801272f   Data          18  ringbuffer.o(.constdata)
-    __FUNCTION__                             0x08012741   Data          24  ringbuffer.o(.constdata)
-    __FUNCTION__                             0x08012759   Data          18  ringbuffer.o(.constdata)
-    __FUNCTION__                             0x0801276b   Data          22  ringbuffer.o(.constdata)
-    __FUNCTION__                             0x08012781   Data          28  ringbuffer.o(.constdata)
-    __FUNCTION__                             0x0801279d   Data          22  ringbuffer.o(.constdata)
-    __FUNCTION__                             0x080127b3   Data          20  ringbuffer.o(.constdata)
-    __FUNCTION__                             0x080127c7   Data          21  ringbuffer.o(.constdata)
-    __FUNCTION__                             0x080127dc   Data          22  ringbuffer.o(.constdata)
-    .constdata                               0x080127f2   Section       15  waitqueue.o(.constdata)
-    __FUNCTION__                             0x080127f2   Data          15  waitqueue.o(.constdata)
-    .constdata                               0x08012801   Section       74  shell.o(.constdata)
-    __FUNCTION__                             0x08012801   Data          22  shell.o(.constdata)
-    __FUNCTION__                             0x08012817   Data          22  shell.o(.constdata)
-    __FUNCTION__                             0x0801282d   Data          15  shell.o(.constdata)
-    __FUNCTION__                             0x0801283c   Data          15  shell.o(.constdata)
-    .constdata                               0x0801284c   Section       80  cmd.o(.constdata)
-    .constdata                               0x0801289c   Section       14  msh.o(.constdata)
-    __FUNCTION__                             0x0801289c   Data          14  msh.o(.constdata)
-    .constdata                               0x080128aa   Section       12  at_cli.o(.constdata)
-    __FUNCTION__                             0x080128aa   Data          12  at_cli.o(.constdata)
-    .constdata                               0x080128b6   Section      215  at_client.o(.constdata)
-    __FUNCTION__                             0x080128b6   Data          17  at_client.o(.constdata)
-    __FUNCTION__                             0x080128c7   Data          17  at_client.o(.constdata)
-    __FUNCTION__                             0x080128d8   Data          23  at_client.o(.constdata)
-    __FUNCTION__                             0x080128ef   Data          24  at_client.o(.constdata)
-    __FUNCTION__                             0x08012907   Data          30  at_client.o(.constdata)
-    __FUNCTION__                             0x08012925   Data          16  at_client.o(.constdata)
-    __FUNCTION__                             0x08012935   Data          19  at_client.o(.constdata)
-    __FUNCTION__                             0x08012948   Data          19  at_client.o(.constdata)
-    __FUNCTION__                             0x0801295b   Data          21  at_client.o(.constdata)
-    __FUNCTION__                             0x08012970   Data          14  at_client.o(.constdata)
-    __FUNCTION__                             0x0801297e   Data          15  at_client.o(.constdata)
-    .constdata                               0x0801298d   Section      104  at_socket.o(.constdata)
-    __FUNCTION__                             0x0801298d   Data          15  at_socket.o(.constdata)
-    __FUNCTION__                             0x0801299c   Data          10  at_socket.o(.constdata)
-    __FUNCTION__                             0x080129a6   Data          18  at_socket.o(.constdata)
-    __FUNCTION__                             0x080129b8   Data          20  at_socket.o(.constdata)
-    __FUNCTION__                             0x080129cc   Data          15  at_socket.o(.constdata)
-    __FUNCTION__                             0x080129db   Data          26  at_socket.o(.constdata)
-    .constdata                               0x080129f5   Section       17  sal_ipaddr.o(.constdata)
-    __FUNCTION__                             0x080129f5   Data          17  sal_ipaddr.o(.constdata)
-    .constdata                               0x08012a08   Section      106  af_inet_at.o(.constdata)
-    at_inet_stream_ops                       0x08012a08   Data          60  af_inet_at.o(.constdata)
-    at_inet_family_ops                       0x08012a44   Data          36  af_inet_at.o(.constdata)
-    __FUNCTION__                             0x08012a68   Data          10  af_inet_at.o(.constdata)
-    .constdata                               0x08012a72   Section      129  ctype_o.o(.constdata)
-    .constdata                               0x08012af4   Section        4  ctype_o.o(.constdata)
-    table                                    0x08012af4   Data           4  ctype_o.o(.constdata)
-    .conststring                             0x08012af8   Section      309  at_socket_esp8266.o(.conststring)
-    .conststring                             0x08012c30   Section      207  ipc.o(.conststring)
-    .conststring                             0x08012d00   Section      237  mem.o(.conststring)
-    .conststring                             0x08012df0   Section       66  thread.o(.conststring)
-    .conststring                             0x08012e34   Section       11  dfs_fs.o(.conststring)
-    .conststring                             0x08012e40   Section        6  devfs.o(.conststring)
-    .conststring                             0x08012e48   Section      349  cmd.o(.conststring)
-    .conststring                             0x08012fa8   Section      140  at_cli.o(.conststring)
-    .conststring                             0x08013034   Section      575  at_client.o(.conststring)
-    .conststring                             0x08013274   Section       98  at_socket.o(.conststring)
-    .rodata.name                             0x080132d6   Section       21  application.o(.rodata.name)
-    .rodata.name                             0x080132eb   Section       36  application.o(.rodata.name)
-    .rodata.name                             0x0801330f   Section       21  application.o(.rodata.name)
-    .rodata.name                             0x08013324   Section       21  application.o(.rodata.name)
-    .rodata.name                             0x08013339   Section       12  board.o(.rodata.name)
-    .rodata.name                             0x08013345   Section       12  board.o(.rodata.name)
-    .rodata.name                             0x08013351   Section       18  at_socket_esp8266.o(.rodata.name)
-    .rodata.name                             0x08013363   Section       22  at_socket_esp8266.o(.rodata.name)
-    .rodata.name                             0x08013379   Section       14  at_socket_esp8266.o(.rodata.name)
-    .rodata.name                             0x08013387   Section       21  at_socket_esp8266.o(.rodata.name)
-    .rodata.name                             0x0801339c   Section        9  mem.o(.rodata.name)
-    .rodata.name                             0x080133a5   Section       30  mem.o(.rodata.name)
-    .rodata.name                             0x080133c3   Section       14  dfs.o(.rodata.name)
-    .rodata.name                             0x080133d1   Section       21  dfs.o(.rodata.name)
-    .rodata.name                             0x080133e6   Section        3  dfs_file.o(.rodata.name)
-    .rodata.name                             0x080133e9   Section       24  dfs_file.o(.rodata.name)
-    .rodata.name                             0x08013401   Section        3  dfs_file.o(.rodata.name)
-    .rodata.name                             0x08013404   Section       28  dfs_file.o(.rodata.name)
-    .rodata.name                             0x08013420   Section        4  dfs_file.o(.rodata.name)
-    .rodata.name                             0x08013424   Section       11  dfs_file.o(.rodata.name)
-    .rodata.name                             0x0801342f   Section        5  dfs_file.o(.rodata.name)
-    .rodata.name                             0x08013434   Section       17  dfs_file.o(.rodata.name)
-    .rodata.name                             0x08013445   Section        5  dfs_fs.o(.rodata.name)
-    .rodata.name                             0x0801344a   Section       19  dfs_fs.o(.rodata.name)
-    .rodata.name                             0x0801345d   Section        3  dfs_fs.o(.rodata.name)
-    .rodata.name                             0x08013460   Section       14  dfs_fs.o(.rodata.name)
-    .rodata.name                             0x0801346e   Section        6  dfs_posix.o(.rodata.name)
-    .rodata.name                             0x08013474   Section       19  dfs_posix.o(.rodata.name)
-    .rodata.name                             0x08013487   Section        3  dfs_posix.o(.rodata.name)
-    .rodata.name                             0x0801348a   Section       33  dfs_posix.o(.rodata.name)
-    .rodata.name                             0x080134ab   Section        8  pin.o(.rodata.name)
-    .rodata.name                             0x080134b3   Section       22  pin.o(.rodata.name)
-    .rodata.name                             0x080134c9   Section        9  pin.o(.rodata.name)
-    .rodata.name                             0x080134d2   Section       28  pin.o(.rodata.name)
-    .rodata.name                             0x080134ee   Section        8  pin.o(.rodata.name)
-    .rodata.name                             0x080134f6   Section       30  pin.o(.rodata.name)
-    .rodata.name                             0x08013514   Section        6  cmd.o(.rodata.name)
-    .rodata.name                             0x0801351a   Section       16  cmd.o(.rodata.name)
-    .rodata.name                             0x0801352a   Section        8  cmd.o(.rodata.name)
-    .rodata.name                             0x08013532   Section       35  cmd.o(.rodata.name)
-    .rodata.name                             0x08013555   Section       14  cmd.o(.rodata.name)
-    .rodata.name                             0x08013563   Section       35  cmd.o(.rodata.name)
-    .rodata.name                             0x08013586   Section       12  cmd.o(.rodata.name)
-    .rodata.name                             0x08013592   Section       12  cmd.o(.rodata.name)
-    .rodata.name                             0x0801359e   Section       18  cmd.o(.rodata.name)
-    .rodata.name                             0x080135b0   Section       12  cmd.o(.rodata.name)
-    .rodata.name                             0x080135bc   Section        9  cmd.o(.rodata.name)
-    .rodata.name                             0x080135c5   Section       25  cmd.o(.rodata.name)
-    .rodata.name                             0x080135de   Section       15  cmd.o(.rodata.name)
-    .rodata.name                             0x080135ed   Section       25  cmd.o(.rodata.name)
-    .rodata.name                             0x08013606   Section       11  cmd.o(.rodata.name)
-    .rodata.name                             0x08013611   Section       21  cmd.o(.rodata.name)
-    .rodata.name                             0x08013626   Section       17  cmd.o(.rodata.name)
-    .rodata.name                             0x08013637   Section       21  cmd.o(.rodata.name)
-    .rodata.name                             0x0801364c   Section       11  cmd.o(.rodata.name)
-    .rodata.name                             0x08013657   Section       21  cmd.o(.rodata.name)
-    .rodata.name                             0x0801366c   Section       17  cmd.o(.rodata.name)
-    .rodata.name                             0x0801367d   Section       21  cmd.o(.rodata.name)
-    .rodata.name                             0x08013692   Section       13  cmd.o(.rodata.name)
-    .rodata.name                             0x0801369f   Section       24  cmd.o(.rodata.name)
-    .rodata.name                             0x080136b7   Section       19  cmd.o(.rodata.name)
-    .rodata.name                             0x080136ca   Section       24  cmd.o(.rodata.name)
-    .rodata.name                             0x080136e2   Section       14  cmd.o(.rodata.name)
-    .rodata.name                             0x080136f0   Section       29  cmd.o(.rodata.name)
-    .rodata.name                             0x0801370d   Section       20  cmd.o(.rodata.name)
-    .rodata.name                             0x08013721   Section       29  cmd.o(.rodata.name)
-    .rodata.name                             0x0801373e   Section       13  cmd.o(.rodata.name)
-    .rodata.name                             0x0801374b   Section       27  cmd.o(.rodata.name)
-    .rodata.name                             0x08013766   Section       19  cmd.o(.rodata.name)
-    .rodata.name                             0x08013779   Section       27  cmd.o(.rodata.name)
-    .rodata.name                             0x08013794   Section       11  cmd.o(.rodata.name)
-    .rodata.name                             0x0801379f   Section       21  cmd.o(.rodata.name)
-    .rodata.name                             0x080137b4   Section       17  cmd.o(.rodata.name)
-    .rodata.name                             0x080137c5   Section       21  cmd.o(.rodata.name)
-    .rodata.name                             0x080137da   Section       12  cmd.o(.rodata.name)
-    .rodata.name                             0x080137e6   Section       22  cmd.o(.rodata.name)
-    .rodata.name                             0x080137fc   Section       18  cmd.o(.rodata.name)
-    .rodata.name                             0x0801380e   Section       22  cmd.o(.rodata.name)
-    .rodata.name                             0x08013824   Section        5  cmd.o(.rodata.name)
-    .rodata.name                             0x08013829   Section       26  cmd.o(.rodata.name)
-    .rodata.name                             0x08013843   Section       11  msh.o(.rodata.name)
-    .rodata.name                             0x0801384e   Section       22  msh.o(.rodata.name)
-    .rodata.name                             0x08013864   Section        9  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x0801386d   Section       34  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x0801388f   Section        9  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x08013898   Section       21  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x080138ad   Section        9  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x080138b6   Section       23  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x080138cd   Section       10  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x080138d7   Section       20  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x080138eb   Section        9  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x080138f4   Section       28  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x08013910   Section        9  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x08013919   Section       36  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x0801393d   Section       10  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x08013947   Section       49  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x08013978   Section       12  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x08013984   Section       22  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x0801399a   Section       11  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x080139a5   Section       29  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x080139c2   Section        9  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x080139cb   Section       10  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x080139d5   Section       11  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x080139e0   Section       20  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x080139f4   Section        9  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x080139fd   Section       28  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x08013a19   Section       11  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x08013a24   Section       27  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x08013a3f   Section       11  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x08013a4a   Section       37  msh_cmd.o(.rodata.name)
-    .rodata.name                             0x08013a6f   Section        9  at_cli.o(.rodata.name)
-    .rodata.name                             0x08013a78   Section       58  at_cli.o(.rodata.name)
-    .rti_fn.0                                0x08013ab4   Section        4  components.o(.rti_fn.0)
-    __tagsym$$used                           0x08013ab4   Number         0  components.o(.rti_fn.0)
-    .rti_fn.0.end                            0x08013ab8   Section        4  components.o(.rti_fn.0.end)
-    __tagsym$$used                           0x08013ab8   Number         0  components.o(.rti_fn.0.end)
-    .rti_fn.1                                0x08013abc   Section        4  drv_usart.o(.rti_fn.1)
-    __tagsym$$used                           0x08013abc   Number         0  drv_usart.o(.rti_fn.1)
-    .rti_fn.1                                0x08013ac0   Section        4  drv_gpio.o(.rti_fn.1)
-    __tagsym$$used                           0x08013ac0   Number         0  drv_gpio.o(.rti_fn.1)
-    .rti_fn.1.end                            0x08013ac4   Section        4  components.o(.rti_fn.1.end)
-    __tagsym$$used                           0x08013ac4   Number         0  components.o(.rti_fn.1.end)
-    .rti_fn.2                                0x08013ac8   Section        4  dfs.o(.rti_fn.2)
-    __tagsym$$used                           0x08013ac8   Number         0  dfs.o(.rti_fn.2)
-    .rti_fn.4                                0x08013acc   Section        4  libc.o(.rti_fn.4)
-    __tagsym$$used                           0x08013acc   Number         0  libc.o(.rti_fn.4)
-    .rti_fn.4                                0x08013ad0   Section        4  sal_socket.o(.rti_fn.4)
-    __tagsym$$used                           0x08013ad0   Number         0  sal_socket.o(.rti_fn.4)
-    .rti_fn.4                                0x08013ad4   Section        4  af_inet_at.o(.rti_fn.4)
-    __tagsym$$used                           0x08013ad4   Number         0  af_inet_at.o(.rti_fn.4)
-    .rti_fn.6                                0x08013ad8   Section        4  shell.o(.rti_fn.6)
-    __tagsym$$used                           0x08013ad8   Number         0  shell.o(.rti_fn.6)
-    .rti_fn.6.end                            0x08013adc   Section        4  components.o(.rti_fn.6.end)
-    __tagsym$$used                           0x08013adc   Number         0  components.o(.rti_fn.6.end)
-    FSymTab                                  0x08013ae0   Section       24  application.o(FSymTab)
-    __tagsym$$used                           0x08013ae0   Number         0  application.o(FSymTab)
-    __tagsym$$used                           0x08013aec   Number         0  application.o(FSymTab)
-    FSymTab                                  0x08013af8   Section       12  board.o(FSymTab)
-    __tagsym$$used                           0x08013af8   Number         0  board.o(FSymTab)
-    FSymTab                                  0x08013b04   Section       24  at_socket_esp8266.o(FSymTab)
-    __tagsym$$used                           0x08013b04   Number         0  at_socket_esp8266.o(FSymTab)
-    __tagsym$$used                           0x08013b10   Number         0  at_socket_esp8266.o(FSymTab)
-    FSymTab                                  0x08013b1c   Section       12  mem.o(FSymTab)
-    __tagsym$$used                           0x08013b1c   Number         0  mem.o(FSymTab)
-    FSymTab                                  0x08013b28   Section       12  dfs.o(FSymTab)
-    __tagsym$$used                           0x08013b28   Number         0  dfs.o(FSymTab)
-    FSymTab                                  0x08013b34   Section       48  dfs_file.o(FSymTab)
-    __tagsym$$used                           0x08013b34   Number         0  dfs_file.o(FSymTab)
-    __tagsym$$used                           0x08013b40   Number         0  dfs_file.o(FSymTab)
-    __tagsym$$used                           0x08013b4c   Number         0  dfs_file.o(FSymTab)
-    __tagsym$$used                           0x08013b58   Number         0  dfs_file.o(FSymTab)
-    FSymTab                                  0x08013b64   Section       24  dfs_fs.o(FSymTab)
-    __tagsym$$used                           0x08013b64   Number         0  dfs_fs.o(FSymTab)
-    __tagsym$$used                           0x08013b70   Number         0  dfs_fs.o(FSymTab)
-    FSymTab                                  0x08013b7c   Section       24  dfs_posix.o(FSymTab)
-    __tagsym$$used                           0x08013b7c   Number         0  dfs_posix.o(FSymTab)
-    __tagsym$$used                           0x08013b88   Number         0  dfs_posix.o(FSymTab)
-    FSymTab                                  0x08013b94   Section       36  pin.o(FSymTab)
-    __tagsym$$used                           0x08013b94   Number         0  pin.o(FSymTab)
-    __tagsym$$used                           0x08013ba0   Number         0  pin.o(FSymTab)
-    __tagsym$$used                           0x08013bac   Number         0  pin.o(FSymTab)
-    FSymTab                                  0x08013bb8   Section      264  cmd.o(FSymTab)
-    __tagsym$$used                           0x08013bb8   Number         0  cmd.o(FSymTab)
-    __tagsym$$used                           0x08013bc4   Number         0  cmd.o(FSymTab)
-    __tagsym$$used                           0x08013bd0   Number         0  cmd.o(FSymTab)
-    __tagsym$$used                           0x08013bdc   Number         0  cmd.o(FSymTab)
-    __tagsym$$used                           0x08013be8   Number         0  cmd.o(FSymTab)
-    __tagsym$$used                           0x08013bf4   Number         0  cmd.o(FSymTab)
-    __tagsym$$used                           0x08013c00   Number         0  cmd.o(FSymTab)
-    __tagsym$$used                           0x08013c0c   Number         0  cmd.o(FSymTab)
-    __tagsym$$used                           0x08013c18   Number         0  cmd.o(FSymTab)
-    __tagsym$$used                           0x08013c24   Number         0  cmd.o(FSymTab)
-    __tagsym$$used                           0x08013c30   Number         0  cmd.o(FSymTab)
-    __tagsym$$used                           0x08013c3c   Number         0  cmd.o(FSymTab)
-    __tagsym$$used                           0x08013c48   Number         0  cmd.o(FSymTab)
-    __tagsym$$used                           0x08013c54   Number         0  cmd.o(FSymTab)
-    __tagsym$$used                           0x08013c60   Number         0  cmd.o(FSymTab)
-    __tagsym$$used                           0x08013c6c   Number         0  cmd.o(FSymTab)
-    __tagsym$$used                           0x08013c78   Number         0  cmd.o(FSymTab)
-    __tagsym$$used                           0x08013c84   Number         0  cmd.o(FSymTab)
-    __tagsym$$used                           0x08013c90   Number         0  cmd.o(FSymTab)
-    __tagsym$$used                           0x08013c9c   Number         0  cmd.o(FSymTab)
-    __tagsym$$used                           0x08013ca8   Number         0  cmd.o(FSymTab)
-    __tagsym$$used                           0x08013cb4   Number         0  cmd.o(FSymTab)
-    FSymTab                                  0x08013cc0   Section       12  msh.o(FSymTab)
-    __tagsym$$used                           0x08013cc0   Number         0  msh.o(FSymTab)
-    FSymTab                                  0x08013ccc   Section      168  msh_cmd.o(FSymTab)
-    __tagsym$$used                           0x08013ccc   Number         0  msh_cmd.o(FSymTab)
-    __tagsym$$used                           0x08013cd8   Number         0  msh_cmd.o(FSymTab)
-    __tagsym$$used                           0x08013ce4   Number         0  msh_cmd.o(FSymTab)
-    __tagsym$$used                           0x08013cf0   Number         0  msh_cmd.o(FSymTab)
-    __tagsym$$used                           0x08013cfc   Number         0  msh_cmd.o(FSymTab)
-    __tagsym$$used                           0x08013d08   Number         0  msh_cmd.o(FSymTab)
-    __tagsym$$used                           0x08013d14   Number         0  msh_cmd.o(FSymTab)
-    __tagsym$$used                           0x08013d20   Number         0  msh_cmd.o(FSymTab)
-    __tagsym$$used                           0x08013d2c   Number         0  msh_cmd.o(FSymTab)
-    __tagsym$$used                           0x08013d38   Number         0  msh_cmd.o(FSymTab)
-    __tagsym$$used                           0x08013d44   Number         0  msh_cmd.o(FSymTab)
-    __tagsym$$used                           0x08013d50   Number         0  msh_cmd.o(FSymTab)
-    __tagsym$$used                           0x08013d5c   Number         0  msh_cmd.o(FSymTab)
-    __tagsym$$used                           0x08013d68   Number         0  msh_cmd.o(FSymTab)
-    FSymTab                                  0x08013d74   Section       12  at_cli.o(FSymTab)
-    __tagsym$$used                           0x08013d74   Number         0  at_cli.o(FSymTab)
+    i.urc_send_bfsz_func                     0x08011614   Section        0  at_socket_esp8266.o(i.urc_send_bfsz_func)
+    urc_send_bfsz_func                       0x08011615   Thumb Code    46  at_socket_esp8266.o(i.urc_send_bfsz_func)
+    i.version                                0x08011668   Section        0  cmd.o(i.version)
+    i.write                                  0x08011674   Section        0  dfs_posix.o(i.write)
+    .constdata                               0x080116b8   Section       72  drv_usart.o(.constdata)
+    drv_uart_ops                             0x080116c0   Data          20  drv_usart.o(.constdata)
+    __FUNCTION__                             0x080116d4   Data          14  drv_usart.o(.constdata)
+    __FUNCTION__                             0x080116e2   Data          12  drv_usart.o(.constdata)
+    __FUNCTION__                             0x080116ee   Data           9  drv_usart.o(.constdata)
+    __FUNCTION__                             0x080116f7   Data           9  drv_usart.o(.constdata)
+    .constdata                               0x08011700   Section     1432  drv_gpio.o(.constdata)
+    pins                                     0x08011700   Data        1344  drv_gpio.o(.constdata)
+    pin_irq_map                              0x08011c40   Data          64  drv_gpio.o(.constdata)
+    _stm32_pin_ops                           0x08011c80   Data          24  drv_gpio.o(.constdata)
+    .constdata                               0x08011c98   Section       25  system_stm32l0xx.o(.constdata)
+    .constdata                               0x08011cb1   Section        8  system_stm32l0xx.o(.constdata)
+    .constdata                               0x08011cbc   Section      125  at_socket_esp8266.o(.constdata)
+    BC28_socket_ops                          0x08011cbc   Data          20  at_socket_esp8266.o(.constdata)
+    __FUNCTION__                             0x08011cd0   Data          20  at_socket_esp8266.o(.constdata)
+    __FUNCTION__                             0x08011ce4   Data          17  at_socket_esp8266.o(.constdata)
+    __FUNCTION__                             0x08011cf5   Data          20  at_socket_esp8266.o(.constdata)
+    __FUNCTION__                             0x08011d09   Data          19  at_socket_esp8266.o(.constdata)
+    __FUNCTION__                             0x08011d1c   Data          15  at_socket_esp8266.o(.constdata)
+    __FUNCTION__                             0x08011d2b   Data          14  at_socket_esp8266.o(.constdata)
+    .constdata                               0x08011d39   Section       20  components.o(.constdata)
+    __FUNCTION__                             0x08011d39   Data          20  components.o(.constdata)
+    .constdata                               0x08011d4d   Section      216  device.o(.constdata)
+    __FUNCTION__                             0x08011d4d   Data          15  device.o(.constdata)
+    __FUNCTION__                             0x08011d5c   Data          21  device.o(.constdata)
+    __FUNCTION__                             0x08011d71   Data          15  device.o(.constdata)
+    __FUNCTION__                             0x08011d80   Data          18  device.o(.constdata)
+    __FUNCTION__                             0x08011d92   Data          15  device.o(.constdata)
+    __FUNCTION__                             0x08011da1   Data          15  device.o(.constdata)
+    __FUNCTION__                             0x08011db0   Data          16  device.o(.constdata)
+    __FUNCTION__                             0x08011dc0   Data          15  device.o(.constdata)
+    __FUNCTION__                             0x08011dcf   Data          16  device.o(.constdata)
+    __FUNCTION__                             0x08011ddf   Data          18  device.o(.constdata)
+    __FUNCTION__                             0x08011df1   Data          26  device.o(.constdata)
+    __FUNCTION__                             0x08011e0b   Data          26  device.o(.constdata)
+    .constdata                               0x08011e25   Section       22  idle.o(.constdata)
+    __FUNCTION__                             0x08011e25   Data          22  idle.o(.constdata)
+    .constdata                               0x08011e3b   Section      503  ipc.o(.constdata)
+    __FUNCTION__                             0x08011e3b   Data          12  ipc.o(.constdata)
+    __FUNCTION__                             0x08011e47   Data          14  ipc.o(.constdata)
+    __FUNCTION__                             0x08011e55   Data          14  ipc.o(.constdata)
+    __FUNCTION__                             0x08011e63   Data          14  ipc.o(.constdata)
+    __FUNCTION__                             0x08011e71   Data          12  ipc.o(.constdata)
+    __FUNCTION__                             0x08011e7d   Data          15  ipc.o(.constdata)
+    __FUNCTION__                             0x08011e8c   Data          15  ipc.o(.constdata)
+    __FUNCTION__                             0x08011e9b   Data          14  ipc.o(.constdata)
+    __FUNCTION__                             0x08011ea9   Data          16  ipc.o(.constdata)
+    __FUNCTION__                             0x08011eb9   Data          16  ipc.o(.constdata)
+    __FUNCTION__                             0x08011ec9   Data          16  ipc.o(.constdata)
+    __FUNCTION__                             0x08011ed9   Data          14  ipc.o(.constdata)
+    __FUNCTION__                             0x08011ee7   Data          17  ipc.o(.constdata)
+    __FUNCTION__                             0x08011ef8   Data          17  ipc.o(.constdata)
+    __FUNCTION__                             0x08011f09   Data          14  ipc.o(.constdata)
+    __FUNCTION__                             0x08011f17   Data          16  ipc.o(.constdata)
+    __FUNCTION__                             0x08011f27   Data          16  ipc.o(.constdata)
+    __FUNCTION__                             0x08011f37   Data          16  ipc.o(.constdata)
+    __FUNCTION__                             0x08011f47   Data          14  ipc.o(.constdata)
+    __FUNCTION__                             0x08011f55   Data          14  ipc.o(.constdata)
+    __FUNCTION__                             0x08011f63   Data          17  ipc.o(.constdata)
+    __FUNCTION__                             0x08011f74   Data          11  ipc.o(.constdata)
+    __FUNCTION__                             0x08011f7f   Data          13  ipc.o(.constdata)
+    __FUNCTION__                             0x08011f8c   Data          13  ipc.o(.constdata)
+    __FUNCTION__                             0x08011f99   Data          13  ipc.o(.constdata)
+    __FUNCTION__                             0x08011fa6   Data          16  ipc.o(.constdata)
+    __FUNCTION__                             0x08011fb6   Data          11  ipc.o(.constdata)
+    __FUNCTION__                             0x08011fc1   Data          14  ipc.o(.constdata)
+    __FUNCTION__                             0x08011fcf   Data          11  ipc.o(.constdata)
+    __FUNCTION__                             0x08011fda   Data          13  ipc.o(.constdata)
+    __FUNCTION__                             0x08011fe7   Data          13  ipc.o(.constdata)
+    __FUNCTION__                             0x08011ff4   Data          13  ipc.o(.constdata)
+    __FUNCTION__                             0x08012001   Data          11  ipc.o(.constdata)
+    __FUNCTION__                             0x0801200c   Data          13  ipc.o(.constdata)
+    __FUNCTION__                             0x08012019   Data          11  ipc.o(.constdata)
+    __FUNCTION__                             0x08012024   Data          14  ipc.o(.constdata)
+    .constdata                               0x08012032   Section      290  kservice.o(.constdata)
+    small_digits                             0x08012132   Data          17  kservice.o(.constdata)
+    large_digits                             0x08012143   Data          17  kservice.o(.constdata)
+    .constdata                               0x08012154   Section       70  mem.o(.constdata)
+    __FUNCTION__                             0x08012154   Data           8  mem.o(.constdata)
+    __FUNCTION__                             0x0801215c   Data          11  mem.o(.constdata)
+    __FUNCTION__                             0x08012167   Data          20  mem.o(.constdata)
+    __FUNCTION__                             0x0801217b   Data          10  mem.o(.constdata)
+    __FUNCTION__                             0x08012185   Data          11  mem.o(.constdata)
+    __FUNCTION__                             0x08012190   Data          10  mem.o(.constdata)
+    .constdata                               0x0801219a   Section      128  object.o(.constdata)
+    __FUNCTION__                             0x0801219a   Data          15  object.o(.constdata)
+    __FUNCTION__                             0x080121a9   Data          17  object.o(.constdata)
+    __FUNCTION__                             0x080121ba   Data          19  object.o(.constdata)
+    __FUNCTION__                             0x080121cd   Data          17  object.o(.constdata)
+    __FUNCTION__                             0x080121de   Data          26  object.o(.constdata)
+    __FUNCTION__                             0x080121f8   Data          19  object.o(.constdata)
+    __FUNCTION__                             0x0801220b   Data          15  object.o(.constdata)
+    .constdata                               0x0801221a   Section       78  scheduler.o(.constdata)
+    __FUNCTION__                             0x0801221a   Data          26  scheduler.o(.constdata)
+    __FUNCTION__                             0x08012234   Data          26  scheduler.o(.constdata)
+    __FUNCTION__                             0x0801224e   Data          26  scheduler.o(.constdata)
+    .constdata                               0x08012268   Section      185  thread.o(.constdata)
+    __FUNCTION__                             0x08012268   Data          16  thread.o(.constdata)
+    __FUNCTION__                             0x08012278   Data          15  thread.o(.constdata)
+    __FUNCTION__                             0x08012287   Data          18  thread.o(.constdata)
+    __FUNCTION__                             0x08012299   Data          17  thread.o(.constdata)
+    __FUNCTION__                             0x080122aa   Data          17  thread.o(.constdata)
+    __FUNCTION__                             0x080122bb   Data          16  thread.o(.constdata)
+    __FUNCTION__                             0x080122cb   Data          18  thread.o(.constdata)
+    __FUNCTION__                             0x080122dd   Data          18  thread.o(.constdata)
+    __FUNCTION__                             0x080122ef   Data          17  thread.o(.constdata)
+    __FUNCTION__                             0x08012300   Data          18  thread.o(.constdata)
+    __FUNCTION__                             0x08012312   Data          15  thread.o(.constdata)
+    .constdata                               0x08012321   Section       92  timer.o(.constdata)
+    __FUNCTION__                             0x08012321   Data          14  timer.o(.constdata)
+    __FUNCTION__                             0x0801232f   Data          16  timer.o(.constdata)
+    __FUNCTION__                             0x0801233f   Data          16  timer.o(.constdata)
+    __FUNCTION__                             0x0801234f   Data          15  timer.o(.constdata)
+    __FUNCTION__                             0x0801235e   Data          14  timer.o(.constdata)
+    __FUNCTION__                             0x0801236c   Data          17  timer.o(.constdata)
+    .constdata                               0x0801237d   Section       35  dfs.o(.constdata)
+    __FUNCTION__                             0x0801237d   Data           7  dfs.o(.constdata)
+    __FUNCTION__                             0x08012384   Data           9  dfs.o(.constdata)
+    __FUNCTION__                             0x0801238d   Data          19  dfs.o(.constdata)
+    .constdata                               0x080123a0   Section       64  dfs_fs.o(.constdata)
+    __FUNCTION__                             0x080123a0   Data          22  dfs_fs.o(.constdata)
+    __FUNCTION__                             0x080123b6   Data          29  dfs_fs.o(.constdata)
+    .constdata                               0x080123e0   Section       36  devfs.o(.constdata)
+    _device_fops                             0x080123e0   Data          36  devfs.o(.constdata)
+    .constdata                               0x08012404   Section      161  devfs.o(.constdata)
+    _device_fs                               0x08012404   Data          40  devfs.o(.constdata)
+    __FUNCTION__                             0x0801242c   Data          20  devfs.o(.constdata)
+    __FUNCTION__                             0x08012440   Data          19  devfs.o(.constdata)
+    __FUNCTION__                             0x08012453   Data          20  devfs.o(.constdata)
+    __FUNCTION__                             0x08012467   Data          20  devfs.o(.constdata)
+    __FUNCTION__                             0x0801247b   Data          19  devfs.o(.constdata)
+    __FUNCTION__                             0x0801248e   Data          23  devfs.o(.constdata)
+    .constdata                               0x080124a5   Section      125  pin.o(.constdata)
+    __FUNCTION__                             0x080124a5   Data          10  pin.o(.constdata)
+    __FUNCTION__                             0x080124af   Data          11  pin.o(.constdata)
+    __FUNCTION__                             0x080124ba   Data          13  pin.o(.constdata)
+    __FUNCTION__                             0x080124c7   Data          18  pin.o(.constdata)
+    __FUNCTION__                             0x080124d9   Data          18  pin.o(.constdata)
+    __FUNCTION__                             0x080124eb   Data          18  pin.o(.constdata)
+    __FUNCTION__                             0x080124fd   Data          12  pin.o(.constdata)
+    __FUNCTION__                             0x08012509   Data          13  pin.o(.constdata)
+    __FUNCTION__                             0x08012516   Data          12  pin.o(.constdata)
+    .constdata                               0x08012524   Section      368  serial.o(.constdata)
+    _serial_fops                             0x08012524   Data          36  serial.o(.constdata)
+    __FUNCTION__                             0x08012548   Data          17  serial.o(.constdata)
+    __FUNCTION__                             0x08012559   Data          17  serial.o(.constdata)
+    __FUNCTION__                             0x0801256a   Data          16  serial.o(.constdata)
+    __FUNCTION__                             0x0801257a   Data          16  serial.o(.constdata)
+    __FUNCTION__                             0x0801258a   Data          15  serial.o(.constdata)
+    __FUNCTION__                             0x08012599   Data          15  serial.o(.constdata)
+    __FUNCTION__                             0x080125a8   Data          29  serial.o(.constdata)
+    __FUNCTION__                             0x080125c5   Data          29  serial.o(.constdata)
+    __FUNCTION__                             0x080125e2   Data          29  serial.o(.constdata)
+    __FUNCTION__                             0x080125ff   Data          15  serial.o(.constdata)
+    __FUNCTION__                             0x0801260e   Data          15  serial.o(.constdata)
+    __FUNCTION__                             0x0801261d   Data          15  serial.o(.constdata)
+    __FUNCTION__                             0x0801262c   Data          16  serial.o(.constdata)
+    __FUNCTION__                             0x0801263c   Data          15  serial.o(.constdata)
+    __FUNCTION__                             0x0801264b   Data          16  serial.o(.constdata)
+    __FUNCTION__                             0x0801265b   Data          18  serial.o(.constdata)
+    __FUNCTION__                             0x0801266d   Data          22  serial.o(.constdata)
+    __FUNCTION__                             0x08012683   Data          17  serial.o(.constdata)
+    .constdata                               0x08012694   Section       57  completion.o(.constdata)
+    __FUNCTION__                             0x08012694   Data          19  completion.o(.constdata)
+    __FUNCTION__                             0x080126a7   Data          19  completion.o(.constdata)
+    __FUNCTION__                             0x080126ba   Data          19  completion.o(.constdata)
+    .constdata                               0x080126cd   Section       75  dataqueue.o(.constdata)
+    __FUNCTION__                             0x080126cd   Data          19  dataqueue.o(.constdata)
+    __FUNCTION__                             0x080126e0   Data          19  dataqueue.o(.constdata)
+    __FUNCTION__                             0x080126f3   Data          18  dataqueue.o(.constdata)
+    __FUNCTION__                             0x08012705   Data          19  dataqueue.o(.constdata)
+    .constdata                               0x08012718   Section      214  ringbuffer.o(.constdata)
+    __FUNCTION__                             0x08012718   Data          19  ringbuffer.o(.constdata)
+    __FUNCTION__                             0x0801272b   Data          18  ringbuffer.o(.constdata)
+    __FUNCTION__                             0x0801273d   Data          24  ringbuffer.o(.constdata)
+    __FUNCTION__                             0x08012755   Data          18  ringbuffer.o(.constdata)
+    __FUNCTION__                             0x08012767   Data          22  ringbuffer.o(.constdata)
+    __FUNCTION__                             0x0801277d   Data          28  ringbuffer.o(.constdata)
+    __FUNCTION__                             0x08012799   Data          22  ringbuffer.o(.constdata)
+    __FUNCTION__                             0x080127af   Data          20  ringbuffer.o(.constdata)
+    __FUNCTION__                             0x080127c3   Data          21  ringbuffer.o(.constdata)
+    __FUNCTION__                             0x080127d8   Data          22  ringbuffer.o(.constdata)
+    .constdata                               0x080127ee   Section       15  waitqueue.o(.constdata)
+    __FUNCTION__                             0x080127ee   Data          15  waitqueue.o(.constdata)
+    .constdata                               0x080127fd   Section       74  shell.o(.constdata)
+    __FUNCTION__                             0x080127fd   Data          22  shell.o(.constdata)
+    __FUNCTION__                             0x08012813   Data          22  shell.o(.constdata)
+    __FUNCTION__                             0x08012829   Data          15  shell.o(.constdata)
+    __FUNCTION__                             0x08012838   Data          15  shell.o(.constdata)
+    .constdata                               0x08012848   Section       80  cmd.o(.constdata)
+    .constdata                               0x08012898   Section       14  msh.o(.constdata)
+    __FUNCTION__                             0x08012898   Data          14  msh.o(.constdata)
+    .constdata                               0x080128a6   Section       12  at_cli.o(.constdata)
+    __FUNCTION__                             0x080128a6   Data          12  at_cli.o(.constdata)
+    .constdata                               0x080128b2   Section      215  at_client.o(.constdata)
+    __FUNCTION__                             0x080128b2   Data          17  at_client.o(.constdata)
+    __FUNCTION__                             0x080128c3   Data          17  at_client.o(.constdata)
+    __FUNCTION__                             0x080128d4   Data          23  at_client.o(.constdata)
+    __FUNCTION__                             0x080128eb   Data          24  at_client.o(.constdata)
+    __FUNCTION__                             0x08012903   Data          30  at_client.o(.constdata)
+    __FUNCTION__                             0x08012921   Data          16  at_client.o(.constdata)
+    __FUNCTION__                             0x08012931   Data          19  at_client.o(.constdata)
+    __FUNCTION__                             0x08012944   Data          19  at_client.o(.constdata)
+    __FUNCTION__                             0x08012957   Data          21  at_client.o(.constdata)
+    __FUNCTION__                             0x0801296c   Data          14  at_client.o(.constdata)
+    __FUNCTION__                             0x0801297a   Data          15  at_client.o(.constdata)
+    .constdata                               0x08012989   Section      104  at_socket.o(.constdata)
+    __FUNCTION__                             0x08012989   Data          15  at_socket.o(.constdata)
+    __FUNCTION__                             0x08012998   Data          10  at_socket.o(.constdata)
+    __FUNCTION__                             0x080129a2   Data          18  at_socket.o(.constdata)
+    __FUNCTION__                             0x080129b4   Data          20  at_socket.o(.constdata)
+    __FUNCTION__                             0x080129c8   Data          15  at_socket.o(.constdata)
+    __FUNCTION__                             0x080129d7   Data          26  at_socket.o(.constdata)
+    .constdata                               0x080129f1   Section       17  sal_ipaddr.o(.constdata)
+    __FUNCTION__                             0x080129f1   Data          17  sal_ipaddr.o(.constdata)
+    .constdata                               0x08012a04   Section      106  af_inet_at.o(.constdata)
+    at_inet_stream_ops                       0x08012a04   Data          60  af_inet_at.o(.constdata)
+    at_inet_family_ops                       0x08012a40   Data          36  af_inet_at.o(.constdata)
+    __FUNCTION__                             0x08012a64   Data          10  af_inet_at.o(.constdata)
+    .constdata                               0x08012a6e   Section      129  ctype_o.o(.constdata)
+    .constdata                               0x08012af0   Section        4  ctype_o.o(.constdata)
+    table                                    0x08012af0   Data           4  ctype_o.o(.constdata)
+    .conststring                             0x08012af4   Section      309  at_socket_esp8266.o(.conststring)
+    .conststring                             0x08012c2c   Section      207  ipc.o(.conststring)
+    .conststring                             0x08012cfc   Section      237  mem.o(.conststring)
+    .conststring                             0x08012dec   Section       66  thread.o(.conststring)
+    .conststring                             0x08012e30   Section       11  dfs_fs.o(.conststring)
+    .conststring                             0x08012e3c   Section        6  devfs.o(.conststring)
+    .conststring                             0x08012e44   Section      349  cmd.o(.conststring)
+    .conststring                             0x08012fa4   Section      140  at_cli.o(.conststring)
+    .conststring                             0x08013030   Section      575  at_client.o(.conststring)
+    .conststring                             0x08013270   Section       98  at_socket.o(.conststring)
+    .rodata.name                             0x080132d2   Section       21  application.o(.rodata.name)
+    .rodata.name                             0x080132e7   Section       36  application.o(.rodata.name)
+    .rodata.name                             0x0801330b   Section       21  application.o(.rodata.name)
+    .rodata.name                             0x08013320   Section       21  application.o(.rodata.name)
+    .rodata.name                             0x08013335   Section       12  board.o(.rodata.name)
+    .rodata.name                             0x08013341   Section       12  board.o(.rodata.name)
+    .rodata.name                             0x0801334d   Section       18  at_socket_esp8266.o(.rodata.name)
+    .rodata.name                             0x0801335f   Section       22  at_socket_esp8266.o(.rodata.name)
+    .rodata.name                             0x08013375   Section       14  at_socket_esp8266.o(.rodata.name)
+    .rodata.name                             0x08013383   Section       21  at_socket_esp8266.o(.rodata.name)
+    .rodata.name                             0x08013398   Section        9  mem.o(.rodata.name)
+    .rodata.name                             0x080133a1   Section       30  mem.o(.rodata.name)
+    .rodata.name                             0x080133bf   Section       14  dfs.o(.rodata.name)
+    .rodata.name                             0x080133cd   Section       21  dfs.o(.rodata.name)
+    .rodata.name                             0x080133e2   Section        3  dfs_file.o(.rodata.name)
+    .rodata.name                             0x080133e5   Section       24  dfs_file.o(.rodata.name)
+    .rodata.name                             0x080133fd   Section        3  dfs_file.o(.rodata.name)
+    .rodata.name                             0x08013400   Section       28  dfs_file.o(.rodata.name)
+    .rodata.name                             0x0801341c   Section        4  dfs_file.o(.rodata.name)
+    .rodata.name                             0x08013420   Section       11  dfs_file.o(.rodata.name)
+    .rodata.name                             0x0801342b   Section        5  dfs_file.o(.rodata.name)
+    .rodata.name                             0x08013430   Section       17  dfs_file.o(.rodata.name)
+    .rodata.name                             0x08013441   Section        5  dfs_fs.o(.rodata.name)
+    .rodata.name                             0x08013446   Section       19  dfs_fs.o(.rodata.name)
+    .rodata.name                             0x08013459   Section        3  dfs_fs.o(.rodata.name)
+    .rodata.name                             0x0801345c   Section       14  dfs_fs.o(.rodata.name)
+    .rodata.name                             0x0801346a   Section        6  dfs_posix.o(.rodata.name)
+    .rodata.name                             0x08013470   Section       19  dfs_posix.o(.rodata.name)
+    .rodata.name                             0x08013483   Section        3  dfs_posix.o(.rodata.name)
+    .rodata.name                             0x08013486   Section       33  dfs_posix.o(.rodata.name)
+    .rodata.name                             0x080134a7   Section        8  pin.o(.rodata.name)
+    .rodata.name                             0x080134af   Section       22  pin.o(.rodata.name)
+    .rodata.name                             0x080134c5   Section        9  pin.o(.rodata.name)
+    .rodata.name                             0x080134ce   Section       28  pin.o(.rodata.name)
+    .rodata.name                             0x080134ea   Section        8  pin.o(.rodata.name)
+    .rodata.name                             0x080134f2   Section       30  pin.o(.rodata.name)
+    .rodata.name                             0x08013510   Section        6  cmd.o(.rodata.name)
+    .rodata.name                             0x08013516   Section       16  cmd.o(.rodata.name)
+    .rodata.name                             0x08013526   Section        8  cmd.o(.rodata.name)
+    .rodata.name                             0x0801352e   Section       35  cmd.o(.rodata.name)
+    .rodata.name                             0x08013551   Section       14  cmd.o(.rodata.name)
+    .rodata.name                             0x0801355f   Section       35  cmd.o(.rodata.name)
+    .rodata.name                             0x08013582   Section       12  cmd.o(.rodata.name)
+    .rodata.name                             0x0801358e   Section       12  cmd.o(.rodata.name)
+    .rodata.name                             0x0801359a   Section       18  cmd.o(.rodata.name)
+    .rodata.name                             0x080135ac   Section       12  cmd.o(.rodata.name)
+    .rodata.name                             0x080135b8   Section        9  cmd.o(.rodata.name)
+    .rodata.name                             0x080135c1   Section       25  cmd.o(.rodata.name)
+    .rodata.name                             0x080135da   Section       15  cmd.o(.rodata.name)
+    .rodata.name                             0x080135e9   Section       25  cmd.o(.rodata.name)
+    .rodata.name                             0x08013602   Section       11  cmd.o(.rodata.name)
+    .rodata.name                             0x0801360d   Section       21  cmd.o(.rodata.name)
+    .rodata.name                             0x08013622   Section       17  cmd.o(.rodata.name)
+    .rodata.name                             0x08013633   Section       21  cmd.o(.rodata.name)
+    .rodata.name                             0x08013648   Section       11  cmd.o(.rodata.name)
+    .rodata.name                             0x08013653   Section       21  cmd.o(.rodata.name)
+    .rodata.name                             0x08013668   Section       17  cmd.o(.rodata.name)
+    .rodata.name                             0x08013679   Section       21  cmd.o(.rodata.name)
+    .rodata.name                             0x0801368e   Section       13  cmd.o(.rodata.name)
+    .rodata.name                             0x0801369b   Section       24  cmd.o(.rodata.name)
+    .rodata.name                             0x080136b3   Section       19  cmd.o(.rodata.name)
+    .rodata.name                             0x080136c6   Section       24  cmd.o(.rodata.name)
+    .rodata.name                             0x080136de   Section       14  cmd.o(.rodata.name)
+    .rodata.name                             0x080136ec   Section       29  cmd.o(.rodata.name)
+    .rodata.name                             0x08013709   Section       20  cmd.o(.rodata.name)
+    .rodata.name                             0x0801371d   Section       29  cmd.o(.rodata.name)
+    .rodata.name                             0x0801373a   Section       13  cmd.o(.rodata.name)
+    .rodata.name                             0x08013747   Section       27  cmd.o(.rodata.name)
+    .rodata.name                             0x08013762   Section       19  cmd.o(.rodata.name)
+    .rodata.name                             0x08013775   Section       27  cmd.o(.rodata.name)
+    .rodata.name                             0x08013790   Section       11  cmd.o(.rodata.name)
+    .rodata.name                             0x0801379b   Section       21  cmd.o(.rodata.name)
+    .rodata.name                             0x080137b0   Section       17  cmd.o(.rodata.name)
+    .rodata.name                             0x080137c1   Section       21  cmd.o(.rodata.name)
+    .rodata.name                             0x080137d6   Section       12  cmd.o(.rodata.name)
+    .rodata.name                             0x080137e2   Section       22  cmd.o(.rodata.name)
+    .rodata.name                             0x080137f8   Section       18  cmd.o(.rodata.name)
+    .rodata.name                             0x0801380a   Section       22  cmd.o(.rodata.name)
+    .rodata.name                             0x08013820   Section        5  cmd.o(.rodata.name)
+    .rodata.name                             0x08013825   Section       26  cmd.o(.rodata.name)
+    .rodata.name                             0x0801383f   Section       11  msh.o(.rodata.name)
+    .rodata.name                             0x0801384a   Section       22  msh.o(.rodata.name)
+    .rodata.name                             0x08013860   Section        9  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x08013869   Section       34  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x0801388b   Section        9  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x08013894   Section       21  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x080138a9   Section        9  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x080138b2   Section       23  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x080138c9   Section       10  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x080138d3   Section       20  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x080138e7   Section        9  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x080138f0   Section       28  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x0801390c   Section        9  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x08013915   Section       36  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x08013939   Section       10  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x08013943   Section       49  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x08013974   Section       12  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x08013980   Section       22  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x08013996   Section       11  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x080139a1   Section       29  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x080139be   Section        9  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x080139c7   Section       10  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x080139d1   Section       11  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x080139dc   Section       20  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x080139f0   Section        9  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x080139f9   Section       28  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x08013a15   Section       11  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x08013a20   Section       27  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x08013a3b   Section       11  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x08013a46   Section       37  msh_cmd.o(.rodata.name)
+    .rodata.name                             0x08013a6b   Section        9  at_cli.o(.rodata.name)
+    .rodata.name                             0x08013a74   Section       58  at_cli.o(.rodata.name)
+    .rti_fn.0                                0x08013ab0   Section        4  components.o(.rti_fn.0)
+    __tagsym$$used                           0x08013ab0   Number         0  components.o(.rti_fn.0)
+    .rti_fn.0.end                            0x08013ab4   Section        4  components.o(.rti_fn.0.end)
+    __tagsym$$used                           0x08013ab4   Number         0  components.o(.rti_fn.0.end)
+    .rti_fn.1                                0x08013ab8   Section        4  drv_usart.o(.rti_fn.1)
+    __tagsym$$used                           0x08013ab8   Number         0  drv_usart.o(.rti_fn.1)
+    .rti_fn.1                                0x08013abc   Section        4  drv_gpio.o(.rti_fn.1)
+    __tagsym$$used                           0x08013abc   Number         0  drv_gpio.o(.rti_fn.1)
+    .rti_fn.1.end                            0x08013ac0   Section        4  components.o(.rti_fn.1.end)
+    __tagsym$$used                           0x08013ac0   Number         0  components.o(.rti_fn.1.end)
+    .rti_fn.2                                0x08013ac4   Section        4  dfs.o(.rti_fn.2)
+    __tagsym$$used                           0x08013ac4   Number         0  dfs.o(.rti_fn.2)
+    .rti_fn.4                                0x08013ac8   Section        4  libc.o(.rti_fn.4)
+    __tagsym$$used                           0x08013ac8   Number         0  libc.o(.rti_fn.4)
+    .rti_fn.4                                0x08013acc   Section        4  sal_socket.o(.rti_fn.4)
+    __tagsym$$used                           0x08013acc   Number         0  sal_socket.o(.rti_fn.4)
+    .rti_fn.4                                0x08013ad0   Section        4  af_inet_at.o(.rti_fn.4)
+    __tagsym$$used                           0x08013ad0   Number         0  af_inet_at.o(.rti_fn.4)
+    .rti_fn.6                                0x08013ad4   Section        4  shell.o(.rti_fn.6)
+    __tagsym$$used                           0x08013ad4   Number         0  shell.o(.rti_fn.6)
+    .rti_fn.6.end                            0x08013ad8   Section        4  components.o(.rti_fn.6.end)
+    __tagsym$$used                           0x08013ad8   Number         0  components.o(.rti_fn.6.end)
+    FSymTab                                  0x08013adc   Section       24  application.o(FSymTab)
+    __tagsym$$used                           0x08013adc   Number         0  application.o(FSymTab)
+    __tagsym$$used                           0x08013ae8   Number         0  application.o(FSymTab)
+    FSymTab                                  0x08013af4   Section       12  board.o(FSymTab)
+    __tagsym$$used                           0x08013af4   Number         0  board.o(FSymTab)
+    FSymTab                                  0x08013b00   Section       24  at_socket_esp8266.o(FSymTab)
+    __tagsym$$used                           0x08013b00   Number         0  at_socket_esp8266.o(FSymTab)
+    __tagsym$$used                           0x08013b0c   Number         0  at_socket_esp8266.o(FSymTab)
+    FSymTab                                  0x08013b18   Section       12  mem.o(FSymTab)
+    __tagsym$$used                           0x08013b18   Number         0  mem.o(FSymTab)
+    FSymTab                                  0x08013b24   Section       12  dfs.o(FSymTab)
+    __tagsym$$used                           0x08013b24   Number         0  dfs.o(FSymTab)
+    FSymTab                                  0x08013b30   Section       48  dfs_file.o(FSymTab)
+    __tagsym$$used                           0x08013b30   Number         0  dfs_file.o(FSymTab)
+    __tagsym$$used                           0x08013b3c   Number         0  dfs_file.o(FSymTab)
+    __tagsym$$used                           0x08013b48   Number         0  dfs_file.o(FSymTab)
+    __tagsym$$used                           0x08013b54   Number         0  dfs_file.o(FSymTab)
+    FSymTab                                  0x08013b60   Section       24  dfs_fs.o(FSymTab)
+    __tagsym$$used                           0x08013b60   Number         0  dfs_fs.o(FSymTab)
+    __tagsym$$used                           0x08013b6c   Number         0  dfs_fs.o(FSymTab)
+    FSymTab                                  0x08013b78   Section       24  dfs_posix.o(FSymTab)
+    __tagsym$$used                           0x08013b78   Number         0  dfs_posix.o(FSymTab)
+    __tagsym$$used                           0x08013b84   Number         0  dfs_posix.o(FSymTab)
+    FSymTab                                  0x08013b90   Section       36  pin.o(FSymTab)
+    __tagsym$$used                           0x08013b90   Number         0  pin.o(FSymTab)
+    __tagsym$$used                           0x08013b9c   Number         0  pin.o(FSymTab)
+    __tagsym$$used                           0x08013ba8   Number         0  pin.o(FSymTab)
+    FSymTab                                  0x08013bb4   Section      264  cmd.o(FSymTab)
+    __tagsym$$used                           0x08013bb4   Number         0  cmd.o(FSymTab)
+    __tagsym$$used                           0x08013bc0   Number         0  cmd.o(FSymTab)
+    __tagsym$$used                           0x08013bcc   Number         0  cmd.o(FSymTab)
+    __tagsym$$used                           0x08013bd8   Number         0  cmd.o(FSymTab)
+    __tagsym$$used                           0x08013be4   Number         0  cmd.o(FSymTab)
+    __tagsym$$used                           0x08013bf0   Number         0  cmd.o(FSymTab)
+    __tagsym$$used                           0x08013bfc   Number         0  cmd.o(FSymTab)
+    __tagsym$$used                           0x08013c08   Number         0  cmd.o(FSymTab)
+    __tagsym$$used                           0x08013c14   Number         0  cmd.o(FSymTab)
+    __tagsym$$used                           0x08013c20   Number         0  cmd.o(FSymTab)
+    __tagsym$$used                           0x08013c2c   Number         0  cmd.o(FSymTab)
+    __tagsym$$used                           0x08013c38   Number         0  cmd.o(FSymTab)
+    __tagsym$$used                           0x08013c44   Number         0  cmd.o(FSymTab)
+    __tagsym$$used                           0x08013c50   Number         0  cmd.o(FSymTab)
+    __tagsym$$used                           0x08013c5c   Number         0  cmd.o(FSymTab)
+    __tagsym$$used                           0x08013c68   Number         0  cmd.o(FSymTab)
+    __tagsym$$used                           0x08013c74   Number         0  cmd.o(FSymTab)
+    __tagsym$$used                           0x08013c80   Number         0  cmd.o(FSymTab)
+    __tagsym$$used                           0x08013c8c   Number         0  cmd.o(FSymTab)
+    __tagsym$$used                           0x08013c98   Number         0  cmd.o(FSymTab)
+    __tagsym$$used                           0x08013ca4   Number         0  cmd.o(FSymTab)
+    __tagsym$$used                           0x08013cb0   Number         0  cmd.o(FSymTab)
+    FSymTab                                  0x08013cbc   Section       12  msh.o(FSymTab)
+    __tagsym$$used                           0x08013cbc   Number         0  msh.o(FSymTab)
+    FSymTab                                  0x08013cc8   Section      168  msh_cmd.o(FSymTab)
+    __tagsym$$used                           0x08013cc8   Number         0  msh_cmd.o(FSymTab)
+    __tagsym$$used                           0x08013cd4   Number         0  msh_cmd.o(FSymTab)
+    __tagsym$$used                           0x08013ce0   Number         0  msh_cmd.o(FSymTab)
+    __tagsym$$used                           0x08013cec   Number         0  msh_cmd.o(FSymTab)
+    __tagsym$$used                           0x08013cf8   Number         0  msh_cmd.o(FSymTab)
+    __tagsym$$used                           0x08013d04   Number         0  msh_cmd.o(FSymTab)
+    __tagsym$$used                           0x08013d10   Number         0  msh_cmd.o(FSymTab)
+    __tagsym$$used                           0x08013d1c   Number         0  msh_cmd.o(FSymTab)
+    __tagsym$$used                           0x08013d28   Number         0  msh_cmd.o(FSymTab)
+    __tagsym$$used                           0x08013d34   Number         0  msh_cmd.o(FSymTab)
+    __tagsym$$used                           0x08013d40   Number         0  msh_cmd.o(FSymTab)
+    __tagsym$$used                           0x08013d4c   Number         0  msh_cmd.o(FSymTab)
+    __tagsym$$used                           0x08013d58   Number         0  msh_cmd.o(FSymTab)
+    __tagsym$$used                           0x08013d64   Number         0  msh_cmd.o(FSymTab)
+    FSymTab                                  0x08013d70   Section       12  at_cli.o(FSymTab)
+    __tagsym$$used                           0x08013d70   Number         0  at_cli.o(FSymTab)
     .data                                    0x20000000   Section       12  drv_gpio.o(.data)
     .data                                    0x2000000c   Section        4  system_stm32l0xx.o(.data)
     .data                                    0x20000010   Section        4  stm32l0xx_hal.o(.data)
@@ -5857,196 +5857,196 @@ Image Symbol Table
     stm32_pin_write                          0x080112e5   Thumb Code    38  drv_gpio.o(i.stm32_pin_write)
     unlink                                   0x08011311   Thumb Code    24  dfs_posix.o(i.unlink)
     urc_iot_connect_status                   0x08011375   Thumb Code    36  at_socket_esp8266.o(i.urc_iot_connect_status)
-    version                                  0x0801166d   Thumb Code    10  cmd.o(i.version)
-    write                                    0x08011679   Thumb Code    64  dfs_posix.o(i.write)
-    AHBPrescTable                            0x08011c9c   Data          16  system_stm32l0xx.o(.constdata)
-    PLLMulTable                              0x08011cac   Data           9  system_stm32l0xx.o(.constdata)
-    APBPrescTable                            0x08011cb5   Data           8  system_stm32l0xx.o(.constdata)
-    __lowest_bit_bitmap                      0x08012036   Data         256  kservice.o(.constdata)
-    __ctype_table                            0x08012a72   Data         129  ctype_o.o(.constdata)
-    __fsym___cmd_at_client_test_name         0x080132d6   Data          21  application.o(.rodata.name)
-    __fsym___cmd_at_client_test_desc         0x080132eb   Data          36  application.o(.rodata.name)
-    __fsym___cmd_at_client_init_name         0x0801330f   Data          21  application.o(.rodata.name)
-    __fsym___cmd_at_client_init_desc         0x08013324   Data          21  application.o(.rodata.name)
-    __fsym___cmd_reset_name                  0x08013339   Data          12  board.o(.rodata.name)
-    __fsym___cmd_reset_desc                  0x08013345   Data          12  board.o(.rodata.name)
-    __fsym___cmd_at_net_init_name            0x08013351   Data          18  at_socket_esp8266.o(.rodata.name)
-    __fsym___cmd_at_net_init_desc            0x08013363   Data          22  at_socket_esp8266.o(.rodata.name)
-    __fsym___cmd_at_ping_name                0x08013379   Data          14  at_socket_esp8266.o(.rodata.name)
-    __fsym___cmd_at_ping_desc                0x08013387   Data          21  at_socket_esp8266.o(.rodata.name)
-    __fsym_list_mem_name                     0x0801339c   Data           9  mem.o(.rodata.name)
-    __fsym_list_mem_desc                     0x080133a5   Data          30  mem.o(.rodata.name)
-    __fsym___cmd_list_fd_name                0x080133c3   Data          14  dfs.o(.rodata.name)
-    __fsym___cmd_list_fd_desc                0x080133d1   Data          21  dfs.o(.rodata.name)
-    __fsym_ls_name                           0x080133e6   Data           3  dfs_file.o(.rodata.name)
-    __fsym_ls_desc                           0x080133e9   Data          24  dfs_file.o(.rodata.name)
-    __fsym_rm_name                           0x08013401   Data           3  dfs_file.o(.rodata.name)
-    __fsym_rm_desc                           0x08013404   Data          28  dfs_file.o(.rodata.name)
-    __fsym_cat_name                          0x08013420   Data           4  dfs_file.o(.rodata.name)
-    __fsym_cat_desc                          0x08013424   Data          11  dfs_file.o(.rodata.name)
-    __fsym_copy_name                         0x0801342f   Data           5  dfs_file.o(.rodata.name)
-    __fsym_copy_desc                         0x08013434   Data          17  dfs_file.o(.rodata.name)
-    __fsym_mkfs_name                         0x08013445   Data           5  dfs_fs.o(.rodata.name)
-    __fsym_mkfs_desc                         0x0801344a   Data          19  dfs_fs.o(.rodata.name)
-    __fsym_df_name                           0x0801345d   Data           3  dfs_fs.o(.rodata.name)
-    __fsym_df_desc                           0x08013460   Data          14  dfs_fs.o(.rodata.name)
-    __fsym_mkdir_name                        0x0801346e   Data           6  dfs_posix.o(.rodata.name)
-    __fsym_mkdir_desc                        0x08013474   Data          19  dfs_posix.o(.rodata.name)
-    __fsym_cd_name                           0x08013487   Data           3  dfs_posix.o(.rodata.name)
-    __fsym_cd_desc                           0x0801348a   Data          33  dfs_posix.o(.rodata.name)
-    __fsym_pinMode_name                      0x080134ab   Data           8  pin.o(.rodata.name)
-    __fsym_pinMode_desc                      0x080134b3   Data          22  pin.o(.rodata.name)
-    __fsym_pinWrite_name                     0x080134c9   Data           9  pin.o(.rodata.name)
-    __fsym_pinWrite_desc                     0x080134d2   Data          28  pin.o(.rodata.name)
-    __fsym_pinRead_name                      0x080134ee   Data           8  pin.o(.rodata.name)
-    __fsym_pinRead_desc                      0x080134f6   Data          30  pin.o(.rodata.name)
-    __fsym_hello_name                        0x08013514   Data           6  cmd.o(.rodata.name)
-    __fsym_hello_desc                        0x0801351a   Data          16  cmd.o(.rodata.name)
-    __fsym_version_name                      0x0801352a   Data           8  cmd.o(.rodata.name)
-    __fsym_version_desc                      0x08013532   Data          35  cmd.o(.rodata.name)
-    __fsym___cmd_version_name                0x08013555   Data          14  cmd.o(.rodata.name)
-    __fsym___cmd_version_desc                0x08013563   Data          35  cmd.o(.rodata.name)
-    __fsym_list_thread_name                  0x08013586   Data          12  cmd.o(.rodata.name)
-    __fsym_list_thread_desc                  0x08013592   Data          12  cmd.o(.rodata.name)
-    __fsym___cmd_list_thread_name            0x0801359e   Data          18  cmd.o(.rodata.name)
-    __fsym___cmd_list_thread_desc            0x080135b0   Data          12  cmd.o(.rodata.name)
-    __fsym_list_sem_name                     0x080135bc   Data           9  cmd.o(.rodata.name)
-    __fsym_list_sem_desc                     0x080135c5   Data          25  cmd.o(.rodata.name)
-    __fsym___cmd_list_sem_name               0x080135de   Data          15  cmd.o(.rodata.name)
-    __fsym___cmd_list_sem_desc               0x080135ed   Data          25  cmd.o(.rodata.name)
-    __fsym_list_event_name                   0x08013606   Data          11  cmd.o(.rodata.name)
-    __fsym_list_event_desc                   0x08013611   Data          21  cmd.o(.rodata.name)
-    __fsym___cmd_list_event_name             0x08013626   Data          17  cmd.o(.rodata.name)
-    __fsym___cmd_list_event_desc             0x08013637   Data          21  cmd.o(.rodata.name)
-    __fsym_list_mutex_name                   0x0801364c   Data          11  cmd.o(.rodata.name)
-    __fsym_list_mutex_desc                   0x08013657   Data          21  cmd.o(.rodata.name)
-    __fsym___cmd_list_mutex_name             0x0801366c   Data          17  cmd.o(.rodata.name)
-    __fsym___cmd_list_mutex_desc             0x0801367d   Data          21  cmd.o(.rodata.name)
-    __fsym_list_mailbox_name                 0x08013692   Data          13  cmd.o(.rodata.name)
-    __fsym_list_mailbox_desc                 0x0801369f   Data          24  cmd.o(.rodata.name)
-    __fsym___cmd_list_mailbox_name           0x080136b7   Data          19  cmd.o(.rodata.name)
-    __fsym___cmd_list_mailbox_desc           0x080136ca   Data          24  cmd.o(.rodata.name)
-    __fsym_list_msgqueue_name                0x080136e2   Data          14  cmd.o(.rodata.name)
-    __fsym_list_msgqueue_desc                0x080136f0   Data          29  cmd.o(.rodata.name)
-    __fsym___cmd_list_msgqueue_name          0x0801370d   Data          20  cmd.o(.rodata.name)
-    __fsym___cmd_list_msgqueue_desc          0x08013721   Data          29  cmd.o(.rodata.name)
-    __fsym_list_mempool_name                 0x0801373e   Data          13  cmd.o(.rodata.name)
-    __fsym_list_mempool_desc                 0x0801374b   Data          27  cmd.o(.rodata.name)
-    __fsym___cmd_list_mempool_name           0x08013766   Data          19  cmd.o(.rodata.name)
-    __fsym___cmd_list_mempool_desc           0x08013779   Data          27  cmd.o(.rodata.name)
-    __fsym_list_timer_name                   0x08013794   Data          11  cmd.o(.rodata.name)
-    __fsym_list_timer_desc                   0x0801379f   Data          21  cmd.o(.rodata.name)
-    __fsym___cmd_list_timer_name             0x080137b4   Data          17  cmd.o(.rodata.name)
-    __fsym___cmd_list_timer_desc             0x080137c5   Data          21  cmd.o(.rodata.name)
-    __fsym_list_device_name                  0x080137da   Data          12  cmd.o(.rodata.name)
-    __fsym_list_device_desc                  0x080137e6   Data          22  cmd.o(.rodata.name)
-    __fsym___cmd_list_device_name            0x080137fc   Data          18  cmd.o(.rodata.name)
-    __fsym___cmd_list_device_desc            0x0801380e   Data          22  cmd.o(.rodata.name)
-    __fsym_list_name                         0x08013824   Data           5  cmd.o(.rodata.name)
-    __fsym_list_desc                         0x08013829   Data          26  cmd.o(.rodata.name)
-    __fsym___cmd_help_name                   0x08013843   Data          11  msh.o(.rodata.name)
-    __fsym___cmd_help_desc                   0x0801384e   Data          22  msh.o(.rodata.name)
-    __fsym___cmd_ls_name                     0x08013864   Data           9  msh_cmd.o(.rodata.name)
-    __fsym___cmd_ls_desc                     0x0801386d   Data          34  msh_cmd.o(.rodata.name)
-    __fsym___cmd_cp_name                     0x0801388f   Data           9  msh_cmd.o(.rodata.name)
-    __fsym___cmd_cp_desc                     0x08013898   Data          21  msh_cmd.o(.rodata.name)
-    __fsym___cmd_mv_name                     0x080138ad   Data           9  msh_cmd.o(.rodata.name)
-    __fsym___cmd_mv_desc                     0x080138b6   Data          23  msh_cmd.o(.rodata.name)
-    __fsym___cmd_cat_name                    0x080138cd   Data          10  msh_cmd.o(.rodata.name)
-    __fsym___cmd_cat_desc                    0x080138d7   Data          20  msh_cmd.o(.rodata.name)
-    __fsym___cmd_rm_name                     0x080138eb   Data           9  msh_cmd.o(.rodata.name)
-    __fsym___cmd_rm_desc                     0x080138f4   Data          28  msh_cmd.o(.rodata.name)
-    __fsym___cmd_cd_name                     0x08013910   Data           9  msh_cmd.o(.rodata.name)
-    __fsym___cmd_cd_desc                     0x08013919   Data          36  msh_cmd.o(.rodata.name)
-    __fsym___cmd_pwd_name                    0x0801393d   Data          10  msh_cmd.o(.rodata.name)
-    __fsym___cmd_pwd_desc                    0x08013947   Data          49  msh_cmd.o(.rodata.name)
-    __fsym___cmd_mkdir_name                  0x08013978   Data          12  msh_cmd.o(.rodata.name)
-    __fsym___cmd_mkdir_desc                  0x08013984   Data          22  msh_cmd.o(.rodata.name)
-    __fsym___cmd_mkfs_name                   0x0801399a   Data          11  msh_cmd.o(.rodata.name)
-    __fsym___cmd_mkfs_desc                   0x080139a5   Data          29  msh_cmd.o(.rodata.name)
-    __fsym___cmd_df_name                     0x080139c2   Data           9  msh_cmd.o(.rodata.name)
-    __fsym___cmd_df_desc                     0x080139cb   Data          10  msh_cmd.o(.rodata.name)
-    __fsym___cmd_echo_name                   0x080139d5   Data          11  msh_cmd.o(.rodata.name)
-    __fsym___cmd_echo_desc                   0x080139e0   Data          20  msh_cmd.o(.rodata.name)
-    __fsym___cmd_ps_name                     0x080139f4   Data           9  msh_cmd.o(.rodata.name)
-    __fsym___cmd_ps_desc                     0x080139fd   Data          28  msh_cmd.o(.rodata.name)
-    __fsym___cmd_time_name                   0x08013a19   Data          11  msh_cmd.o(.rodata.name)
-    __fsym___cmd_time_desc                   0x08013a24   Data          27  msh_cmd.o(.rodata.name)
-    __fsym___cmd_free_name                   0x08013a3f   Data          11  msh_cmd.o(.rodata.name)
-    __fsym___cmd_free_desc                   0x08013a4a   Data          37  msh_cmd.o(.rodata.name)
-    __fsym___cmd_at_name                     0x08013a6f   Data           9  at_cli.o(.rodata.name)
-    __fsym___cmd_at_desc                     0x08013a78   Data          58  at_cli.o(.rodata.name)
-    __rt_init_rti_start                      0x08013ab4   Data           4  components.o(.rti_fn.0)
-    __rt_init_rti_board_start                0x08013ab8   Data           4  components.o(.rti_fn.0.end)
-    __rt_init_hw_usart_init                  0x08013abc   Data           4  drv_usart.o(.rti_fn.1)
-    __rt_init_rt_hw_pin_init                 0x08013ac0   Data           4  drv_gpio.o(.rti_fn.1)
-    __rt_init_rti_board_end                  0x08013ac4   Data           4  components.o(.rti_fn.1.end)
-    __rt_init_dfs_init                       0x08013ac8   Data           4  dfs.o(.rti_fn.2)
-    __rt_init_libc_system_init               0x08013acc   Data           4  libc.o(.rti_fn.4)
-    __rt_init_sal_init                       0x08013ad0   Data           4  sal_socket.o(.rti_fn.4)
-    __rt_init_at_inet_init                   0x08013ad4   Data           4  af_inet_at.o(.rti_fn.4)
-    __rt_init_finsh_system_init              0x08013ad8   Data           4  shell.o(.rti_fn.6)
-    __rt_init_rti_end                        0x08013adc   Data           4  components.o(.rti_fn.6.end)
-    FSymTab$$Base                            0x08013ae0   Number         0  application.o(FSymTab)
-    __fsym___cmd_at_client_test              0x08013ae0   Data          12  application.o(FSymTab)
-    __fsym___cmd_at_client_init              0x08013aec   Data          12  application.o(FSymTab)
-    __fsym___cmd_reset                       0x08013af8   Data          12  board.o(FSymTab)
-    __fsym___cmd_at_net_init                 0x08013b04   Data          12  at_socket_esp8266.o(FSymTab)
-    __fsym___cmd_at_ping                     0x08013b10   Data          12  at_socket_esp8266.o(FSymTab)
-    __fsym_list_mem                          0x08013b1c   Data          12  mem.o(FSymTab)
-    __fsym___cmd_list_fd                     0x08013b28   Data          12  dfs.o(FSymTab)
-    __fsym_ls                                0x08013b34   Data          12  dfs_file.o(FSymTab)
-    __fsym_rm                                0x08013b40   Data          12  dfs_file.o(FSymTab)
-    __fsym_cat                               0x08013b4c   Data          12  dfs_file.o(FSymTab)
-    __fsym_copy                              0x08013b58   Data          12  dfs_file.o(FSymTab)
-    __fsym_mkfs                              0x08013b64   Data          12  dfs_fs.o(FSymTab)
-    __fsym_df                                0x08013b70   Data          12  dfs_fs.o(FSymTab)
-    __fsym_mkdir                             0x08013b7c   Data          12  dfs_posix.o(FSymTab)
-    __fsym_cd                                0x08013b88   Data          12  dfs_posix.o(FSymTab)
-    __fsym_pinMode                           0x08013b94   Data          12  pin.o(FSymTab)
-    __fsym_pinWrite                          0x08013ba0   Data          12  pin.o(FSymTab)
-    __fsym_pinRead                           0x08013bac   Data          12  pin.o(FSymTab)
-    __fsym_hello                             0x08013bb8   Data          12  cmd.o(FSymTab)
-    __fsym_version                           0x08013bc4   Data          12  cmd.o(FSymTab)
-    __fsym___cmd_version                     0x08013bd0   Data          12  cmd.o(FSymTab)
-    __fsym_list_thread                       0x08013bdc   Data          12  cmd.o(FSymTab)
-    __fsym___cmd_list_thread                 0x08013be8   Data          12  cmd.o(FSymTab)
-    __fsym_list_sem                          0x08013bf4   Data          12  cmd.o(FSymTab)
-    __fsym___cmd_list_sem                    0x08013c00   Data          12  cmd.o(FSymTab)
-    __fsym_list_event                        0x08013c0c   Data          12  cmd.o(FSymTab)
-    __fsym___cmd_list_event                  0x08013c18   Data          12  cmd.o(FSymTab)
-    __fsym_list_mutex                        0x08013c24   Data          12  cmd.o(FSymTab)
-    __fsym___cmd_list_mutex                  0x08013c30   Data          12  cmd.o(FSymTab)
-    __fsym_list_mailbox                      0x08013c3c   Data          12  cmd.o(FSymTab)
-    __fsym___cmd_list_mailbox                0x08013c48   Data          12  cmd.o(FSymTab)
-    __fsym_list_msgqueue                     0x08013c54   Data          12  cmd.o(FSymTab)
-    __fsym___cmd_list_msgqueue               0x08013c60   Data          12  cmd.o(FSymTab)
-    __fsym_list_mempool                      0x08013c6c   Data          12  cmd.o(FSymTab)
-    __fsym___cmd_list_mempool                0x08013c78   Data          12  cmd.o(FSymTab)
-    __fsym_list_timer                        0x08013c84   Data          12  cmd.o(FSymTab)
-    __fsym___cmd_list_timer                  0x08013c90   Data          12  cmd.o(FSymTab)
-    __fsym_list_device                       0x08013c9c   Data          12  cmd.o(FSymTab)
-    __fsym___cmd_list_device                 0x08013ca8   Data          12  cmd.o(FSymTab)
-    __fsym_list                              0x08013cb4   Data          12  cmd.o(FSymTab)
-    __fsym___cmd_help                        0x08013cc0   Data          12  msh.o(FSymTab)
-    __fsym___cmd_ls                          0x08013ccc   Data          12  msh_cmd.o(FSymTab)
-    __fsym___cmd_cp                          0x08013cd8   Data          12  msh_cmd.o(FSymTab)
-    __fsym___cmd_mv                          0x08013ce4   Data          12  msh_cmd.o(FSymTab)
-    __fsym___cmd_cat                         0x08013cf0   Data          12  msh_cmd.o(FSymTab)
-    __fsym___cmd_rm                          0x08013cfc   Data          12  msh_cmd.o(FSymTab)
-    __fsym___cmd_cd                          0x08013d08   Data          12  msh_cmd.o(FSymTab)
-    __fsym___cmd_pwd                         0x08013d14   Data          12  msh_cmd.o(FSymTab)
-    __fsym___cmd_mkdir                       0x08013d20   Data          12  msh_cmd.o(FSymTab)
-    __fsym___cmd_mkfs                        0x08013d2c   Data          12  msh_cmd.o(FSymTab)
-    __fsym___cmd_df                          0x08013d38   Data          12  msh_cmd.o(FSymTab)
-    __fsym___cmd_echo                        0x08013d44   Data          12  msh_cmd.o(FSymTab)
-    __fsym___cmd_ps                          0x08013d50   Data          12  msh_cmd.o(FSymTab)
-    __fsym___cmd_time                        0x08013d5c   Data          12  msh_cmd.o(FSymTab)
-    __fsym___cmd_free                        0x08013d68   Data          12  msh_cmd.o(FSymTab)
-    __fsym___cmd_at                          0x08013d74   Data          12  at_cli.o(FSymTab)
-    FSymTab$$Limit                           0x08013d80   Number         0  at_cli.o(FSymTab)
-    Region$$Table$$Base                      0x08013d80   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x08013da0   Number         0  anon$$obj.o(Region$$Table)
+    version                                  0x08011669   Thumb Code    10  cmd.o(i.version)
+    write                                    0x08011675   Thumb Code    64  dfs_posix.o(i.write)
+    AHBPrescTable                            0x08011c98   Data          16  system_stm32l0xx.o(.constdata)
+    PLLMulTable                              0x08011ca8   Data           9  system_stm32l0xx.o(.constdata)
+    APBPrescTable                            0x08011cb1   Data           8  system_stm32l0xx.o(.constdata)
+    __lowest_bit_bitmap                      0x08012032   Data         256  kservice.o(.constdata)
+    __ctype_table                            0x08012a6e   Data         129  ctype_o.o(.constdata)
+    __fsym___cmd_at_client_test_name         0x080132d2   Data          21  application.o(.rodata.name)
+    __fsym___cmd_at_client_test_desc         0x080132e7   Data          36  application.o(.rodata.name)
+    __fsym___cmd_at_client_init_name         0x0801330b   Data          21  application.o(.rodata.name)
+    __fsym___cmd_at_client_init_desc         0x08013320   Data          21  application.o(.rodata.name)
+    __fsym___cmd_reset_name                  0x08013335   Data          12  board.o(.rodata.name)
+    __fsym___cmd_reset_desc                  0x08013341   Data          12  board.o(.rodata.name)
+    __fsym___cmd_at_net_init_name            0x0801334d   Data          18  at_socket_esp8266.o(.rodata.name)
+    __fsym___cmd_at_net_init_desc            0x0801335f   Data          22  at_socket_esp8266.o(.rodata.name)
+    __fsym___cmd_at_ping_name                0x08013375   Data          14  at_socket_esp8266.o(.rodata.name)
+    __fsym___cmd_at_ping_desc                0x08013383   Data          21  at_socket_esp8266.o(.rodata.name)
+    __fsym_list_mem_name                     0x08013398   Data           9  mem.o(.rodata.name)
+    __fsym_list_mem_desc                     0x080133a1   Data          30  mem.o(.rodata.name)
+    __fsym___cmd_list_fd_name                0x080133bf   Data          14  dfs.o(.rodata.name)
+    __fsym___cmd_list_fd_desc                0x080133cd   Data          21  dfs.o(.rodata.name)
+    __fsym_ls_name                           0x080133e2   Data           3  dfs_file.o(.rodata.name)
+    __fsym_ls_desc                           0x080133e5   Data          24  dfs_file.o(.rodata.name)
+    __fsym_rm_name                           0x080133fd   Data           3  dfs_file.o(.rodata.name)
+    __fsym_rm_desc                           0x08013400   Data          28  dfs_file.o(.rodata.name)
+    __fsym_cat_name                          0x0801341c   Data           4  dfs_file.o(.rodata.name)
+    __fsym_cat_desc                          0x08013420   Data          11  dfs_file.o(.rodata.name)
+    __fsym_copy_name                         0x0801342b   Data           5  dfs_file.o(.rodata.name)
+    __fsym_copy_desc                         0x08013430   Data          17  dfs_file.o(.rodata.name)
+    __fsym_mkfs_name                         0x08013441   Data           5  dfs_fs.o(.rodata.name)
+    __fsym_mkfs_desc                         0x08013446   Data          19  dfs_fs.o(.rodata.name)
+    __fsym_df_name                           0x08013459   Data           3  dfs_fs.o(.rodata.name)
+    __fsym_df_desc                           0x0801345c   Data          14  dfs_fs.o(.rodata.name)
+    __fsym_mkdir_name                        0x0801346a   Data           6  dfs_posix.o(.rodata.name)
+    __fsym_mkdir_desc                        0x08013470   Data          19  dfs_posix.o(.rodata.name)
+    __fsym_cd_name                           0x08013483   Data           3  dfs_posix.o(.rodata.name)
+    __fsym_cd_desc                           0x08013486   Data          33  dfs_posix.o(.rodata.name)
+    __fsym_pinMode_name                      0x080134a7   Data           8  pin.o(.rodata.name)
+    __fsym_pinMode_desc                      0x080134af   Data          22  pin.o(.rodata.name)
+    __fsym_pinWrite_name                     0x080134c5   Data           9  pin.o(.rodata.name)
+    __fsym_pinWrite_desc                     0x080134ce   Data          28  pin.o(.rodata.name)
+    __fsym_pinRead_name                      0x080134ea   Data           8  pin.o(.rodata.name)
+    __fsym_pinRead_desc                      0x080134f2   Data          30  pin.o(.rodata.name)
+    __fsym_hello_name                        0x08013510   Data           6  cmd.o(.rodata.name)
+    __fsym_hello_desc                        0x08013516   Data          16  cmd.o(.rodata.name)
+    __fsym_version_name                      0x08013526   Data           8  cmd.o(.rodata.name)
+    __fsym_version_desc                      0x0801352e   Data          35  cmd.o(.rodata.name)
+    __fsym___cmd_version_name                0x08013551   Data          14  cmd.o(.rodata.name)
+    __fsym___cmd_version_desc                0x0801355f   Data          35  cmd.o(.rodata.name)
+    __fsym_list_thread_name                  0x08013582   Data          12  cmd.o(.rodata.name)
+    __fsym_list_thread_desc                  0x0801358e   Data          12  cmd.o(.rodata.name)
+    __fsym___cmd_list_thread_name            0x0801359a   Data          18  cmd.o(.rodata.name)
+    __fsym___cmd_list_thread_desc            0x080135ac   Data          12  cmd.o(.rodata.name)
+    __fsym_list_sem_name                     0x080135b8   Data           9  cmd.o(.rodata.name)
+    __fsym_list_sem_desc                     0x080135c1   Data          25  cmd.o(.rodata.name)
+    __fsym___cmd_list_sem_name               0x080135da   Data          15  cmd.o(.rodata.name)
+    __fsym___cmd_list_sem_desc               0x080135e9   Data          25  cmd.o(.rodata.name)
+    __fsym_list_event_name                   0x08013602   Data          11  cmd.o(.rodata.name)
+    __fsym_list_event_desc                   0x0801360d   Data          21  cmd.o(.rodata.name)
+    __fsym___cmd_list_event_name             0x08013622   Data          17  cmd.o(.rodata.name)
+    __fsym___cmd_list_event_desc             0x08013633   Data          21  cmd.o(.rodata.name)
+    __fsym_list_mutex_name                   0x08013648   Data          11  cmd.o(.rodata.name)
+    __fsym_list_mutex_desc                   0x08013653   Data          21  cmd.o(.rodata.name)
+    __fsym___cmd_list_mutex_name             0x08013668   Data          17  cmd.o(.rodata.name)
+    __fsym___cmd_list_mutex_desc             0x08013679   Data          21  cmd.o(.rodata.name)
+    __fsym_list_mailbox_name                 0x0801368e   Data          13  cmd.o(.rodata.name)
+    __fsym_list_mailbox_desc                 0x0801369b   Data          24  cmd.o(.rodata.name)
+    __fsym___cmd_list_mailbox_name           0x080136b3   Data          19  cmd.o(.rodata.name)
+    __fsym___cmd_list_mailbox_desc           0x080136c6   Data          24  cmd.o(.rodata.name)
+    __fsym_list_msgqueue_name                0x080136de   Data          14  cmd.o(.rodata.name)
+    __fsym_list_msgqueue_desc                0x080136ec   Data          29  cmd.o(.rodata.name)
+    __fsym___cmd_list_msgqueue_name          0x08013709   Data          20  cmd.o(.rodata.name)
+    __fsym___cmd_list_msgqueue_desc          0x0801371d   Data          29  cmd.o(.rodata.name)
+    __fsym_list_mempool_name                 0x0801373a   Data          13  cmd.o(.rodata.name)
+    __fsym_list_mempool_desc                 0x08013747   Data          27  cmd.o(.rodata.name)
+    __fsym___cmd_list_mempool_name           0x08013762   Data          19  cmd.o(.rodata.name)
+    __fsym___cmd_list_mempool_desc           0x08013775   Data          27  cmd.o(.rodata.name)
+    __fsym_list_timer_name                   0x08013790   Data          11  cmd.o(.rodata.name)
+    __fsym_list_timer_desc                   0x0801379b   Data          21  cmd.o(.rodata.name)
+    __fsym___cmd_list_timer_name             0x080137b0   Data          17  cmd.o(.rodata.name)
+    __fsym___cmd_list_timer_desc             0x080137c1   Data          21  cmd.o(.rodata.name)
+    __fsym_list_device_name                  0x080137d6   Data          12  cmd.o(.rodata.name)
+    __fsym_list_device_desc                  0x080137e2   Data          22  cmd.o(.rodata.name)
+    __fsym___cmd_list_device_name            0x080137f8   Data          18  cmd.o(.rodata.name)
+    __fsym___cmd_list_device_desc            0x0801380a   Data          22  cmd.o(.rodata.name)
+    __fsym_list_name                         0x08013820   Data           5  cmd.o(.rodata.name)
+    __fsym_list_desc                         0x08013825   Data          26  cmd.o(.rodata.name)
+    __fsym___cmd_help_name                   0x0801383f   Data          11  msh.o(.rodata.name)
+    __fsym___cmd_help_desc                   0x0801384a   Data          22  msh.o(.rodata.name)
+    __fsym___cmd_ls_name                     0x08013860   Data           9  msh_cmd.o(.rodata.name)
+    __fsym___cmd_ls_desc                     0x08013869   Data          34  msh_cmd.o(.rodata.name)
+    __fsym___cmd_cp_name                     0x0801388b   Data           9  msh_cmd.o(.rodata.name)
+    __fsym___cmd_cp_desc                     0x08013894   Data          21  msh_cmd.o(.rodata.name)
+    __fsym___cmd_mv_name                     0x080138a9   Data           9  msh_cmd.o(.rodata.name)
+    __fsym___cmd_mv_desc                     0x080138b2   Data          23  msh_cmd.o(.rodata.name)
+    __fsym___cmd_cat_name                    0x080138c9   Data          10  msh_cmd.o(.rodata.name)
+    __fsym___cmd_cat_desc                    0x080138d3   Data          20  msh_cmd.o(.rodata.name)
+    __fsym___cmd_rm_name                     0x080138e7   Data           9  msh_cmd.o(.rodata.name)
+    __fsym___cmd_rm_desc                     0x080138f0   Data          28  msh_cmd.o(.rodata.name)
+    __fsym___cmd_cd_name                     0x0801390c   Data           9  msh_cmd.o(.rodata.name)
+    __fsym___cmd_cd_desc                     0x08013915   Data          36  msh_cmd.o(.rodata.name)
+    __fsym___cmd_pwd_name                    0x08013939   Data          10  msh_cmd.o(.rodata.name)
+    __fsym___cmd_pwd_desc                    0x08013943   Data          49  msh_cmd.o(.rodata.name)
+    __fsym___cmd_mkdir_name                  0x08013974   Data          12  msh_cmd.o(.rodata.name)
+    __fsym___cmd_mkdir_desc                  0x08013980   Data          22  msh_cmd.o(.rodata.name)
+    __fsym___cmd_mkfs_name                   0x08013996   Data          11  msh_cmd.o(.rodata.name)
+    __fsym___cmd_mkfs_desc                   0x080139a1   Data          29  msh_cmd.o(.rodata.name)
+    __fsym___cmd_df_name                     0x080139be   Data           9  msh_cmd.o(.rodata.name)
+    __fsym___cmd_df_desc                     0x080139c7   Data          10  msh_cmd.o(.rodata.name)
+    __fsym___cmd_echo_name                   0x080139d1   Data          11  msh_cmd.o(.rodata.name)
+    __fsym___cmd_echo_desc                   0x080139dc   Data          20  msh_cmd.o(.rodata.name)
+    __fsym___cmd_ps_name                     0x080139f0   Data           9  msh_cmd.o(.rodata.name)
+    __fsym___cmd_ps_desc                     0x080139f9   Data          28  msh_cmd.o(.rodata.name)
+    __fsym___cmd_time_name                   0x08013a15   Data          11  msh_cmd.o(.rodata.name)
+    __fsym___cmd_time_desc                   0x08013a20   Data          27  msh_cmd.o(.rodata.name)
+    __fsym___cmd_free_name                   0x08013a3b   Data          11  msh_cmd.o(.rodata.name)
+    __fsym___cmd_free_desc                   0x08013a46   Data          37  msh_cmd.o(.rodata.name)
+    __fsym___cmd_at_name                     0x08013a6b   Data           9  at_cli.o(.rodata.name)
+    __fsym___cmd_at_desc                     0x08013a74   Data          58  at_cli.o(.rodata.name)
+    __rt_init_rti_start                      0x08013ab0   Data           4  components.o(.rti_fn.0)
+    __rt_init_rti_board_start                0x08013ab4   Data           4  components.o(.rti_fn.0.end)
+    __rt_init_hw_usart_init                  0x08013ab8   Data           4  drv_usart.o(.rti_fn.1)
+    __rt_init_rt_hw_pin_init                 0x08013abc   Data           4  drv_gpio.o(.rti_fn.1)
+    __rt_init_rti_board_end                  0x08013ac0   Data           4  components.o(.rti_fn.1.end)
+    __rt_init_dfs_init                       0x08013ac4   Data           4  dfs.o(.rti_fn.2)
+    __rt_init_libc_system_init               0x08013ac8   Data           4  libc.o(.rti_fn.4)
+    __rt_init_sal_init                       0x08013acc   Data           4  sal_socket.o(.rti_fn.4)
+    __rt_init_at_inet_init                   0x08013ad0   Data           4  af_inet_at.o(.rti_fn.4)
+    __rt_init_finsh_system_init              0x08013ad4   Data           4  shell.o(.rti_fn.6)
+    __rt_init_rti_end                        0x08013ad8   Data           4  components.o(.rti_fn.6.end)
+    FSymTab$$Base                            0x08013adc   Number         0  application.o(FSymTab)
+    __fsym___cmd_at_client_test              0x08013adc   Data          12  application.o(FSymTab)
+    __fsym___cmd_at_client_init              0x08013ae8   Data          12  application.o(FSymTab)
+    __fsym___cmd_reset                       0x08013af4   Data          12  board.o(FSymTab)
+    __fsym___cmd_at_net_init                 0x08013b00   Data          12  at_socket_esp8266.o(FSymTab)
+    __fsym___cmd_at_ping                     0x08013b0c   Data          12  at_socket_esp8266.o(FSymTab)
+    __fsym_list_mem                          0x08013b18   Data          12  mem.o(FSymTab)
+    __fsym___cmd_list_fd                     0x08013b24   Data          12  dfs.o(FSymTab)
+    __fsym_ls                                0x08013b30   Data          12  dfs_file.o(FSymTab)
+    __fsym_rm                                0x08013b3c   Data          12  dfs_file.o(FSymTab)
+    __fsym_cat                               0x08013b48   Data          12  dfs_file.o(FSymTab)
+    __fsym_copy                              0x08013b54   Data          12  dfs_file.o(FSymTab)
+    __fsym_mkfs                              0x08013b60   Data          12  dfs_fs.o(FSymTab)
+    __fsym_df                                0x08013b6c   Data          12  dfs_fs.o(FSymTab)
+    __fsym_mkdir                             0x08013b78   Data          12  dfs_posix.o(FSymTab)
+    __fsym_cd                                0x08013b84   Data          12  dfs_posix.o(FSymTab)
+    __fsym_pinMode                           0x08013b90   Data          12  pin.o(FSymTab)
+    __fsym_pinWrite                          0x08013b9c   Data          12  pin.o(FSymTab)
+    __fsym_pinRead                           0x08013ba8   Data          12  pin.o(FSymTab)
+    __fsym_hello                             0x08013bb4   Data          12  cmd.o(FSymTab)
+    __fsym_version                           0x08013bc0   Data          12  cmd.o(FSymTab)
+    __fsym___cmd_version                     0x08013bcc   Data          12  cmd.o(FSymTab)
+    __fsym_list_thread                       0x08013bd8   Data          12  cmd.o(FSymTab)
+    __fsym___cmd_list_thread                 0x08013be4   Data          12  cmd.o(FSymTab)
+    __fsym_list_sem                          0x08013bf0   Data          12  cmd.o(FSymTab)
+    __fsym___cmd_list_sem                    0x08013bfc   Data          12  cmd.o(FSymTab)
+    __fsym_list_event                        0x08013c08   Data          12  cmd.o(FSymTab)
+    __fsym___cmd_list_event                  0x08013c14   Data          12  cmd.o(FSymTab)
+    __fsym_list_mutex                        0x08013c20   Data          12  cmd.o(FSymTab)
+    __fsym___cmd_list_mutex                  0x08013c2c   Data          12  cmd.o(FSymTab)
+    __fsym_list_mailbox                      0x08013c38   Data          12  cmd.o(FSymTab)
+    __fsym___cmd_list_mailbox                0x08013c44   Data          12  cmd.o(FSymTab)
+    __fsym_list_msgqueue                     0x08013c50   Data          12  cmd.o(FSymTab)
+    __fsym___cmd_list_msgqueue               0x08013c5c   Data          12  cmd.o(FSymTab)
+    __fsym_list_mempool                      0x08013c68   Data          12  cmd.o(FSymTab)
+    __fsym___cmd_list_mempool                0x08013c74   Data          12  cmd.o(FSymTab)
+    __fsym_list_timer                        0x08013c80   Data          12  cmd.o(FSymTab)
+    __fsym___cmd_list_timer                  0x08013c8c   Data          12  cmd.o(FSymTab)
+    __fsym_list_device                       0x08013c98   Data          12  cmd.o(FSymTab)
+    __fsym___cmd_list_device                 0x08013ca4   Data          12  cmd.o(FSymTab)
+    __fsym_list                              0x08013cb0   Data          12  cmd.o(FSymTab)
+    __fsym___cmd_help                        0x08013cbc   Data          12  msh.o(FSymTab)
+    __fsym___cmd_ls                          0x08013cc8   Data          12  msh_cmd.o(FSymTab)
+    __fsym___cmd_cp                          0x08013cd4   Data          12  msh_cmd.o(FSymTab)
+    __fsym___cmd_mv                          0x08013ce0   Data          12  msh_cmd.o(FSymTab)
+    __fsym___cmd_cat                         0x08013cec   Data          12  msh_cmd.o(FSymTab)
+    __fsym___cmd_rm                          0x08013cf8   Data          12  msh_cmd.o(FSymTab)
+    __fsym___cmd_cd                          0x08013d04   Data          12  msh_cmd.o(FSymTab)
+    __fsym___cmd_pwd                         0x08013d10   Data          12  msh_cmd.o(FSymTab)
+    __fsym___cmd_mkdir                       0x08013d1c   Data          12  msh_cmd.o(FSymTab)
+    __fsym___cmd_mkfs                        0x08013d28   Data          12  msh_cmd.o(FSymTab)
+    __fsym___cmd_df                          0x08013d34   Data          12  msh_cmd.o(FSymTab)
+    __fsym___cmd_echo                        0x08013d40   Data          12  msh_cmd.o(FSymTab)
+    __fsym___cmd_ps                          0x08013d4c   Data          12  msh_cmd.o(FSymTab)
+    __fsym___cmd_time                        0x08013d58   Data          12  msh_cmd.o(FSymTab)
+    __fsym___cmd_free                        0x08013d64   Data          12  msh_cmd.o(FSymTab)
+    __fsym___cmd_at                          0x08013d70   Data          12  at_cli.o(FSymTab)
+    FSymTab$$Limit                           0x08013d7c   Number         0  at_cli.o(FSymTab)
+    Region$$Table$$Base                      0x08013d7c   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x08013d9c   Number         0  anon$$obj.o(Region$$Table)
     pin_irq_hdr_tab                          0x20000000   Data          12  drv_gpio.o(.data)
     SystemCoreClock                          0x2000000c   Data           4  system_stm32l0xx.o(.data)
     uwTick                                   0x20000010   Data           4  stm32l0xx_hal.o(.data)
@@ -6088,9 +6088,9 @@ Memory Map of the image
 
   Image Entry point : 0x080000c1
 
-  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x000140a8, Max: 0x00020000, ABSOLUTE, COMPRESSED[0x00013e3c])
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x000140a4, Max: 0x00020000, ABSOLUTE, COMPRESSED[0x00013e38])
 
-    Execution Region ER_IROM1 (Base: 0x08000000, Size: 0x00013da0, Max: 0x00020000, ABSOLUTE)
+    Execution Region ER_IROM1 (Base: 0x08000000, Size: 0x00013d9c, Max: 0x00020000, ABSOLUTE)
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -6570,207 +6570,207 @@ Memory Map of the image
     0x08011328   0x0000004c   Code   RO         3397    i.urc_close_func    at_socket_esp8266.o
     0x08011374   0x00000034   Code   RO         3398    i.urc_iot_connect_status  at_socket_esp8266.o
     0x080113a8   0x0000008c   Code   RO         3399    i.urc_ping_func     at_socket_esp8266.o
-    0x08011434   0x000001e4   Code   RO         3400    i.urc_recv_func     at_socket_esp8266.o
-    0x08011618   0x00000054   Code   RO         3401    i.urc_send_bfsz_func  at_socket_esp8266.o
-    0x0801166c   0x0000000a   Code   RO         6115    i.version           cmd.o
-    0x08011676   0x00000002   PAD
-    0x08011678   0x00000044   Code   RO         5145    i.write             dfs_posix.o
-    0x080116bc   0x00000048   Data   RO          417    .constdata          drv_usart.o
-    0x08011704   0x00000598   Data   RO          503    .constdata          drv_gpio.o
-    0x08011c9c   0x00000019   Data   RO          591    .constdata          system_stm32l0xx.o
-    0x08011cb5   0x00000008   Data   RO          592    .constdata          system_stm32l0xx.o
-    0x08011cbd   0x00000003   PAD
-    0x08011cc0   0x0000007d   Data   RO         3402    .constdata          at_socket_esp8266.o
-    0x08011d3d   0x00000014   Data   RO         3526    .constdata          components.o
-    0x08011d51   0x000000d8   Data   RO         3597    .constdata          device.o
-    0x08011e29   0x00000016   Data   RO         3687    .constdata          idle.o
-    0x08011e3f   0x000001f7   Data   RO         3765    .constdata          ipc.o
-    0x08012036   0x00000122   Data   RO         4037    .constdata          kservice.o
-    0x08012158   0x00000046   Data   RO         4211    .constdata          mem.o
-    0x0801219e   0x00000080   Data   RO         4345    .constdata          object.o
-    0x0801221e   0x0000004e   Data   RO         4438    .constdata          scheduler.o
-    0x0801226c   0x000000b9   Data   RO         4531    .constdata          thread.o
-    0x08012325   0x0000005c   Data   RO         4651    .constdata          timer.o
-    0x08012381   0x00000023   Data   RO         4798    .constdata          dfs.o
-    0x080123a4   0x00000040   Data   RO         5057    .constdata          dfs_fs.o
-    0x080123e4   0x00000024   Data   RO         5394    .constdata          devfs.o
-    0x08012408   0x000000a1   Data   RO         5395    .constdata          devfs.o
-    0x080124a9   0x0000007d   Data   RO         5470    .constdata          pin.o
-    0x08012526   0x00000002   PAD
-    0x08012528   0x00000170   Data   RO         5548    .constdata          serial.o
-    0x08012698   0x00000039   Data   RO         5676    .constdata          completion.o
-    0x080126d1   0x0000004b   Data   RO         5703    .constdata          dataqueue.o
-    0x0801271c   0x000000d6   Data   RO         5851    .constdata          ringbuffer.o
-    0x080127f2   0x0000000f   Data   RO         5917    .constdata          waitqueue.o
-    0x08012801   0x0000004a   Data   RO         6016    .constdata          shell.o
-    0x0801284b   0x00000001   PAD
-    0x0801284c   0x00000050   Data   RO         6116    .constdata          cmd.o
-    0x0801289c   0x0000000e   Data   RO         6243    .constdata          msh.o
-    0x080128aa   0x0000000c   Data   RO         6696    .constdata          at_cli.o
-    0x080128b6   0x000000d7   Data   RO         6790    .constdata          at_client.o
-    0x0801298d   0x00000068   Data   RO         6907    .constdata          at_socket.o
-    0x080129f5   0x00000011   Data   RO         7028    .constdata          sal_ipaddr.o
-    0x08012a06   0x00000002   PAD
-    0x08012a08   0x0000006a   Data   RO         7265    .constdata          af_inet_at.o
-    0x08012a72   0x00000081   Data   RO         7465    .constdata          mc_p.l(ctype_o.o)
-    0x08012af3   0x00000001   PAD
-    0x08012af4   0x00000004   Data   RO         7466    .constdata          mc_p.l(ctype_o.o)
-    0x08012af8   0x00000135   Data   RO         3403    .conststring        at_socket_esp8266.o
-    0x08012c2d   0x00000003   PAD
-    0x08012c30   0x000000cf   Data   RO         3766    .conststring        ipc.o
-    0x08012cff   0x00000001   PAD
-    0x08012d00   0x000000ed   Data   RO         4212    .conststring        mem.o
-    0x08012ded   0x00000003   PAD
-    0x08012df0   0x00000042   Data   RO         4532    .conststring        thread.o
-    0x08012e32   0x00000002   PAD
-    0x08012e34   0x0000000b   Data   RO         5058    .conststring        dfs_fs.o
-    0x08012e3f   0x00000001   PAD
-    0x08012e40   0x00000006   Data   RO         5396    .conststring        devfs.o
-    0x08012e46   0x00000002   PAD
-    0x08012e48   0x0000015d   Data   RO         6117    .conststring        cmd.o
-    0x08012fa5   0x00000003   PAD
-    0x08012fa8   0x0000008c   Data   RO         6697    .conststring        at_cli.o
-    0x08013034   0x0000023f   Data   RO         6791    .conststring        at_client.o
-    0x08013273   0x00000001   PAD
-    0x08013274   0x00000062   Data   RO         6908    .conststring        at_socket.o
-    0x080132d6   0x00000015   Data   RO            4    .rodata.name        application.o
-    0x080132eb   0x00000024   Data   RO            5    .rodata.name        application.o
-    0x0801330f   0x00000015   Data   RO            6    .rodata.name        application.o
-    0x08013324   0x00000015   Data   RO            7    .rodata.name        application.o
-    0x08013339   0x0000000c   Data   RO          307    .rodata.name        board.o
-    0x08013345   0x0000000c   Data   RO          308    .rodata.name        board.o
-    0x08013351   0x00000012   Data   RO         3405    .rodata.name        at_socket_esp8266.o
-    0x08013363   0x00000016   Data   RO         3406    .rodata.name        at_socket_esp8266.o
-    0x08013379   0x0000000e   Data   RO         3407    .rodata.name        at_socket_esp8266.o
-    0x08013387   0x00000015   Data   RO         3408    .rodata.name        at_socket_esp8266.o
-    0x0801339c   0x00000009   Data   RO         4214    .rodata.name        mem.o
-    0x080133a5   0x0000001e   Data   RO         4215    .rodata.name        mem.o
-    0x080133c3   0x0000000e   Data   RO         4800    .rodata.name        dfs.o
-    0x080133d1   0x00000015   Data   RO         4801    .rodata.name        dfs.o
-    0x080133e6   0x00000003   Data   RO         4947    .rodata.name        dfs_file.o
-    0x080133e9   0x00000018   Data   RO         4948    .rodata.name        dfs_file.o
-    0x08013401   0x00000003   Data   RO         4949    .rodata.name        dfs_file.o
-    0x08013404   0x0000001c   Data   RO         4950    .rodata.name        dfs_file.o
-    0x08013420   0x00000004   Data   RO         4951    .rodata.name        dfs_file.o
-    0x08013424   0x0000000b   Data   RO         4952    .rodata.name        dfs_file.o
-    0x0801342f   0x00000005   Data   RO         4953    .rodata.name        dfs_file.o
-    0x08013434   0x00000011   Data   RO         4954    .rodata.name        dfs_file.o
-    0x08013445   0x00000005   Data   RO         5059    .rodata.name        dfs_fs.o
-    0x0801344a   0x00000013   Data   RO         5060    .rodata.name        dfs_fs.o
-    0x0801345d   0x00000003   Data   RO         5061    .rodata.name        dfs_fs.o
-    0x08013460   0x0000000e   Data   RO         5062    .rodata.name        dfs_fs.o
-    0x0801346e   0x00000006   Data   RO         5146    .rodata.name        dfs_posix.o
-    0x08013474   0x00000013   Data   RO         5147    .rodata.name        dfs_posix.o
-    0x08013487   0x00000003   Data   RO         5148    .rodata.name        dfs_posix.o
-    0x0801348a   0x00000021   Data   RO         5149    .rodata.name        dfs_posix.o
-    0x080134ab   0x00000008   Data   RO         5471    .rodata.name        pin.o
-    0x080134b3   0x00000016   Data   RO         5472    .rodata.name        pin.o
-    0x080134c9   0x00000009   Data   RO         5473    .rodata.name        pin.o
-    0x080134d2   0x0000001c   Data   RO         5474    .rodata.name        pin.o
-    0x080134ee   0x00000008   Data   RO         5475    .rodata.name        pin.o
-    0x080134f6   0x0000001e   Data   RO         5476    .rodata.name        pin.o
-    0x08013514   0x00000006   Data   RO         6118    .rodata.name        cmd.o
-    0x0801351a   0x00000010   Data   RO         6119    .rodata.name        cmd.o
-    0x0801352a   0x00000008   Data   RO         6120    .rodata.name        cmd.o
-    0x08013532   0x00000023   Data   RO         6121    .rodata.name        cmd.o
-    0x08013555   0x0000000e   Data   RO         6122    .rodata.name        cmd.o
-    0x08013563   0x00000023   Data   RO         6123    .rodata.name        cmd.o
-    0x08013586   0x0000000c   Data   RO         6124    .rodata.name        cmd.o
-    0x08013592   0x0000000c   Data   RO         6125    .rodata.name        cmd.o
-    0x0801359e   0x00000012   Data   RO         6126    .rodata.name        cmd.o
-    0x080135b0   0x0000000c   Data   RO         6127    .rodata.name        cmd.o
-    0x080135bc   0x00000009   Data   RO         6128    .rodata.name        cmd.o
-    0x080135c5   0x00000019   Data   RO         6129    .rodata.name        cmd.o
-    0x080135de   0x0000000f   Data   RO         6130    .rodata.name        cmd.o
-    0x080135ed   0x00000019   Data   RO         6131    .rodata.name        cmd.o
-    0x08013606   0x0000000b   Data   RO         6132    .rodata.name        cmd.o
-    0x08013611   0x00000015   Data   RO         6133    .rodata.name        cmd.o
-    0x08013626   0x00000011   Data   RO         6134    .rodata.name        cmd.o
-    0x08013637   0x00000015   Data   RO         6135    .rodata.name        cmd.o
-    0x0801364c   0x0000000b   Data   RO         6136    .rodata.name        cmd.o
-    0x08013657   0x00000015   Data   RO         6137    .rodata.name        cmd.o
-    0x0801366c   0x00000011   Data   RO         6138    .rodata.name        cmd.o
-    0x0801367d   0x00000015   Data   RO         6139    .rodata.name        cmd.o
-    0x08013692   0x0000000d   Data   RO         6140    .rodata.name        cmd.o
-    0x0801369f   0x00000018   Data   RO         6141    .rodata.name        cmd.o
-    0x080136b7   0x00000013   Data   RO         6142    .rodata.name        cmd.o
-    0x080136ca   0x00000018   Data   RO         6143    .rodata.name        cmd.o
-    0x080136e2   0x0000000e   Data   RO         6144    .rodata.name        cmd.o
-    0x080136f0   0x0000001d   Data   RO         6145    .rodata.name        cmd.o
-    0x0801370d   0x00000014   Data   RO         6146    .rodata.name        cmd.o
-    0x08013721   0x0000001d   Data   RO         6147    .rodata.name        cmd.o
-    0x0801373e   0x0000000d   Data   RO         6148    .rodata.name        cmd.o
-    0x0801374b   0x0000001b   Data   RO         6149    .rodata.name        cmd.o
-    0x08013766   0x00000013   Data   RO         6150    .rodata.name        cmd.o
-    0x08013779   0x0000001b   Data   RO         6151    .rodata.name        cmd.o
-    0x08013794   0x0000000b   Data   RO         6152    .rodata.name        cmd.o
-    0x0801379f   0x00000015   Data   RO         6153    .rodata.name        cmd.o
-    0x080137b4   0x00000011   Data   RO         6154    .rodata.name        cmd.o
-    0x080137c5   0x00000015   Data   RO         6155    .rodata.name        cmd.o
-    0x080137da   0x0000000c   Data   RO         6156    .rodata.name        cmd.o
-    0x080137e6   0x00000016   Data   RO         6157    .rodata.name        cmd.o
-    0x080137fc   0x00000012   Data   RO         6158    .rodata.name        cmd.o
-    0x0801380e   0x00000016   Data   RO         6159    .rodata.name        cmd.o
-    0x08013824   0x00000005   Data   RO         6160    .rodata.name        cmd.o
-    0x08013829   0x0000001a   Data   RO         6161    .rodata.name        cmd.o
-    0x08013843   0x0000000b   Data   RO         6244    .rodata.name        msh.o
-    0x0801384e   0x00000016   Data   RO         6245    .rodata.name        msh.o
-    0x08013864   0x00000009   Data   RO         6294    .rodata.name        msh_cmd.o
-    0x0801386d   0x00000022   Data   RO         6295    .rodata.name        msh_cmd.o
-    0x0801388f   0x00000009   Data   RO         6296    .rodata.name        msh_cmd.o
-    0x08013898   0x00000015   Data   RO         6297    .rodata.name        msh_cmd.o
-    0x080138ad   0x00000009   Data   RO         6298    .rodata.name        msh_cmd.o
-    0x080138b6   0x00000017   Data   RO         6299    .rodata.name        msh_cmd.o
-    0x080138cd   0x0000000a   Data   RO         6300    .rodata.name        msh_cmd.o
-    0x080138d7   0x00000014   Data   RO         6301    .rodata.name        msh_cmd.o
-    0x080138eb   0x00000009   Data   RO         6302    .rodata.name        msh_cmd.o
-    0x080138f4   0x0000001c   Data   RO         6303    .rodata.name        msh_cmd.o
-    0x08013910   0x00000009   Data   RO         6304    .rodata.name        msh_cmd.o
-    0x08013919   0x00000024   Data   RO         6305    .rodata.name        msh_cmd.o
-    0x0801393d   0x0000000a   Data   RO         6306    .rodata.name        msh_cmd.o
-    0x08013947   0x00000031   Data   RO         6307    .rodata.name        msh_cmd.o
-    0x08013978   0x0000000c   Data   RO         6308    .rodata.name        msh_cmd.o
-    0x08013984   0x00000016   Data   RO         6309    .rodata.name        msh_cmd.o
-    0x0801399a   0x0000000b   Data   RO         6310    .rodata.name        msh_cmd.o
-    0x080139a5   0x0000001d   Data   RO         6311    .rodata.name        msh_cmd.o
-    0x080139c2   0x00000009   Data   RO         6312    .rodata.name        msh_cmd.o
-    0x080139cb   0x0000000a   Data   RO         6313    .rodata.name        msh_cmd.o
-    0x080139d5   0x0000000b   Data   RO         6314    .rodata.name        msh_cmd.o
-    0x080139e0   0x00000014   Data   RO         6315    .rodata.name        msh_cmd.o
-    0x080139f4   0x00000009   Data   RO         6316    .rodata.name        msh_cmd.o
-    0x080139fd   0x0000001c   Data   RO         6317    .rodata.name        msh_cmd.o
-    0x08013a19   0x0000000b   Data   RO         6318    .rodata.name        msh_cmd.o
-    0x08013a24   0x0000001b   Data   RO         6319    .rodata.name        msh_cmd.o
-    0x08013a3f   0x0000000b   Data   RO         6320    .rodata.name        msh_cmd.o
-    0x08013a4a   0x00000025   Data   RO         6321    .rodata.name        msh_cmd.o
-    0x08013a6f   0x00000009   Data   RO         6699    .rodata.name        at_cli.o
-    0x08013a78   0x0000003a   Data   RO         6700    .rodata.name        at_cli.o
-    0x08013ab2   0x00000002   PAD
-    0x08013ab4   0x00000004   Data   RO         3527    .rti_fn.0           components.o
-    0x08013ab8   0x00000004   Data   RO         3528    .rti_fn.0.end       components.o
-    0x08013abc   0x00000004   Data   RO          418    .rti_fn.1           drv_usart.o
-    0x08013ac0   0x00000004   Data   RO          505    .rti_fn.1           drv_gpio.o
-    0x08013ac4   0x00000004   Data   RO         3529    .rti_fn.1.end       components.o
-    0x08013ac8   0x00000004   Data   RO         4802    .rti_fn.2           dfs.o
-    0x08013acc   0x00000004   Data   RO         6415    .rti_fn.4           libc.o
-    0x08013ad0   0x00000004   Data   RO         7092    .rti_fn.4           sal_socket.o
-    0x08013ad4   0x00000004   Data   RO         7266    .rti_fn.4           af_inet_at.o
-    0x08013ad8   0x00000004   Data   RO         6018    .rti_fn.6           shell.o
-    0x08013adc   0x00000004   Data   RO         3530    .rti_fn.6.end       components.o
-    0x08013ae0   0x00000018   Data   RO            8    FSymTab             application.o
-    0x08013af8   0x0000000c   Data   RO          309    FSymTab             board.o
-    0x08013b04   0x00000018   Data   RO         3409    FSymTab             at_socket_esp8266.o
-    0x08013b1c   0x0000000c   Data   RO         4216    FSymTab             mem.o
-    0x08013b28   0x0000000c   Data   RO         4803    FSymTab             dfs.o
-    0x08013b34   0x00000030   Data   RO         4955    FSymTab             dfs_file.o
-    0x08013b64   0x00000018   Data   RO         5063    FSymTab             dfs_fs.o
-    0x08013b7c   0x00000018   Data   RO         5150    FSymTab             dfs_posix.o
-    0x08013b94   0x00000024   Data   RO         5477    FSymTab             pin.o
-    0x08013bb8   0x00000108   Data   RO         6162    FSymTab             cmd.o
-    0x08013cc0   0x0000000c   Data   RO         6246    FSymTab             msh.o
-    0x08013ccc   0x000000a8   Data   RO         6322    FSymTab             msh_cmd.o
-    0x08013d74   0x0000000c   Data   RO         6701    FSymTab             at_cli.o
-    0x08013d80   0x00000020   Data   RO         7863    Region$$Table       anon$$obj.o
+    0x08011434   0x000001e0   Code   RO         3400    i.urc_recv_func     at_socket_esp8266.o
+    0x08011614   0x00000054   Code   RO         3401    i.urc_send_bfsz_func  at_socket_esp8266.o
+    0x08011668   0x0000000a   Code   RO         6115    i.version           cmd.o
+    0x08011672   0x00000002   PAD
+    0x08011674   0x00000044   Code   RO         5145    i.write             dfs_posix.o
+    0x080116b8   0x00000048   Data   RO          417    .constdata          drv_usart.o
+    0x08011700   0x00000598   Data   RO          503    .constdata          drv_gpio.o
+    0x08011c98   0x00000019   Data   RO          591    .constdata          system_stm32l0xx.o
+    0x08011cb1   0x00000008   Data   RO          592    .constdata          system_stm32l0xx.o
+    0x08011cb9   0x00000003   PAD
+    0x08011cbc   0x0000007d   Data   RO         3402    .constdata          at_socket_esp8266.o
+    0x08011d39   0x00000014   Data   RO         3526    .constdata          components.o
+    0x08011d4d   0x000000d8   Data   RO         3597    .constdata          device.o
+    0x08011e25   0x00000016   Data   RO         3687    .constdata          idle.o
+    0x08011e3b   0x000001f7   Data   RO         3765    .constdata          ipc.o
+    0x08012032   0x00000122   Data   RO         4037    .constdata          kservice.o
+    0x08012154   0x00000046   Data   RO         4211    .constdata          mem.o
+    0x0801219a   0x00000080   Data   RO         4345    .constdata          object.o
+    0x0801221a   0x0000004e   Data   RO         4438    .constdata          scheduler.o
+    0x08012268   0x000000b9   Data   RO         4531    .constdata          thread.o
+    0x08012321   0x0000005c   Data   RO         4651    .constdata          timer.o
+    0x0801237d   0x00000023   Data   RO         4798    .constdata          dfs.o
+    0x080123a0   0x00000040   Data   RO         5057    .constdata          dfs_fs.o
+    0x080123e0   0x00000024   Data   RO         5394    .constdata          devfs.o
+    0x08012404   0x000000a1   Data   RO         5395    .constdata          devfs.o
+    0x080124a5   0x0000007d   Data   RO         5470    .constdata          pin.o
+    0x08012522   0x00000002   PAD
+    0x08012524   0x00000170   Data   RO         5548    .constdata          serial.o
+    0x08012694   0x00000039   Data   RO         5676    .constdata          completion.o
+    0x080126cd   0x0000004b   Data   RO         5703    .constdata          dataqueue.o
+    0x08012718   0x000000d6   Data   RO         5851    .constdata          ringbuffer.o
+    0x080127ee   0x0000000f   Data   RO         5917    .constdata          waitqueue.o
+    0x080127fd   0x0000004a   Data   RO         6016    .constdata          shell.o
+    0x08012847   0x00000001   PAD
+    0x08012848   0x00000050   Data   RO         6116    .constdata          cmd.o
+    0x08012898   0x0000000e   Data   RO         6243    .constdata          msh.o
+    0x080128a6   0x0000000c   Data   RO         6696    .constdata          at_cli.o
+    0x080128b2   0x000000d7   Data   RO         6790    .constdata          at_client.o
+    0x08012989   0x00000068   Data   RO         6907    .constdata          at_socket.o
+    0x080129f1   0x00000011   Data   RO         7028    .constdata          sal_ipaddr.o
+    0x08012a02   0x00000002   PAD
+    0x08012a04   0x0000006a   Data   RO         7265    .constdata          af_inet_at.o
+    0x08012a6e   0x00000081   Data   RO         7465    .constdata          mc_p.l(ctype_o.o)
+    0x08012aef   0x00000001   PAD
+    0x08012af0   0x00000004   Data   RO         7466    .constdata          mc_p.l(ctype_o.o)
+    0x08012af4   0x00000135   Data   RO         3403    .conststring        at_socket_esp8266.o
+    0x08012c29   0x00000003   PAD
+    0x08012c2c   0x000000cf   Data   RO         3766    .conststring        ipc.o
+    0x08012cfb   0x00000001   PAD
+    0x08012cfc   0x000000ed   Data   RO         4212    .conststring        mem.o
+    0x08012de9   0x00000003   PAD
+    0x08012dec   0x00000042   Data   RO         4532    .conststring        thread.o
+    0x08012e2e   0x00000002   PAD
+    0x08012e30   0x0000000b   Data   RO         5058    .conststring        dfs_fs.o
+    0x08012e3b   0x00000001   PAD
+    0x08012e3c   0x00000006   Data   RO         5396    .conststring        devfs.o
+    0x08012e42   0x00000002   PAD
+    0x08012e44   0x0000015d   Data   RO         6117    .conststring        cmd.o
+    0x08012fa1   0x00000003   PAD
+    0x08012fa4   0x0000008c   Data   RO         6697    .conststring        at_cli.o
+    0x08013030   0x0000023f   Data   RO         6791    .conststring        at_client.o
+    0x0801326f   0x00000001   PAD
+    0x08013270   0x00000062   Data   RO         6908    .conststring        at_socket.o
+    0x080132d2   0x00000015   Data   RO            4    .rodata.name        application.o
+    0x080132e7   0x00000024   Data   RO            5    .rodata.name        application.o
+    0x0801330b   0x00000015   Data   RO            6    .rodata.name        application.o
+    0x08013320   0x00000015   Data   RO            7    .rodata.name        application.o
+    0x08013335   0x0000000c   Data   RO          307    .rodata.name        board.o
+    0x08013341   0x0000000c   Data   RO          308    .rodata.name        board.o
+    0x0801334d   0x00000012   Data   RO         3405    .rodata.name        at_socket_esp8266.o
+    0x0801335f   0x00000016   Data   RO         3406    .rodata.name        at_socket_esp8266.o
+    0x08013375   0x0000000e   Data   RO         3407    .rodata.name        at_socket_esp8266.o
+    0x08013383   0x00000015   Data   RO         3408    .rodata.name        at_socket_esp8266.o
+    0x08013398   0x00000009   Data   RO         4214    .rodata.name        mem.o
+    0x080133a1   0x0000001e   Data   RO         4215    .rodata.name        mem.o
+    0x080133bf   0x0000000e   Data   RO         4800    .rodata.name        dfs.o
+    0x080133cd   0x00000015   Data   RO         4801    .rodata.name        dfs.o
+    0x080133e2   0x00000003   Data   RO         4947    .rodata.name        dfs_file.o
+    0x080133e5   0x00000018   Data   RO         4948    .rodata.name        dfs_file.o
+    0x080133fd   0x00000003   Data   RO         4949    .rodata.name        dfs_file.o
+    0x08013400   0x0000001c   Data   RO         4950    .rodata.name        dfs_file.o
+    0x0801341c   0x00000004   Data   RO         4951    .rodata.name        dfs_file.o
+    0x08013420   0x0000000b   Data   RO         4952    .rodata.name        dfs_file.o
+    0x0801342b   0x00000005   Data   RO         4953    .rodata.name        dfs_file.o
+    0x08013430   0x00000011   Data   RO         4954    .rodata.name        dfs_file.o
+    0x08013441   0x00000005   Data   RO         5059    .rodata.name        dfs_fs.o
+    0x08013446   0x00000013   Data   RO         5060    .rodata.name        dfs_fs.o
+    0x08013459   0x00000003   Data   RO         5061    .rodata.name        dfs_fs.o
+    0x0801345c   0x0000000e   Data   RO         5062    .rodata.name        dfs_fs.o
+    0x0801346a   0x00000006   Data   RO         5146    .rodata.name        dfs_posix.o
+    0x08013470   0x00000013   Data   RO         5147    .rodata.name        dfs_posix.o
+    0x08013483   0x00000003   Data   RO         5148    .rodata.name        dfs_posix.o
+    0x08013486   0x00000021   Data   RO         5149    .rodata.name        dfs_posix.o
+    0x080134a7   0x00000008   Data   RO         5471    .rodata.name        pin.o
+    0x080134af   0x00000016   Data   RO         5472    .rodata.name        pin.o
+    0x080134c5   0x00000009   Data   RO         5473    .rodata.name        pin.o
+    0x080134ce   0x0000001c   Data   RO         5474    .rodata.name        pin.o
+    0x080134ea   0x00000008   Data   RO         5475    .rodata.name        pin.o
+    0x080134f2   0x0000001e   Data   RO         5476    .rodata.name        pin.o
+    0x08013510   0x00000006   Data   RO         6118    .rodata.name        cmd.o
+    0x08013516   0x00000010   Data   RO         6119    .rodata.name        cmd.o
+    0x08013526   0x00000008   Data   RO         6120    .rodata.name        cmd.o
+    0x0801352e   0x00000023   Data   RO         6121    .rodata.name        cmd.o
+    0x08013551   0x0000000e   Data   RO         6122    .rodata.name        cmd.o
+    0x0801355f   0x00000023   Data   RO         6123    .rodata.name        cmd.o
+    0x08013582   0x0000000c   Data   RO         6124    .rodata.name        cmd.o
+    0x0801358e   0x0000000c   Data   RO         6125    .rodata.name        cmd.o
+    0x0801359a   0x00000012   Data   RO         6126    .rodata.name        cmd.o
+    0x080135ac   0x0000000c   Data   RO         6127    .rodata.name        cmd.o
+    0x080135b8   0x00000009   Data   RO         6128    .rodata.name        cmd.o
+    0x080135c1   0x00000019   Data   RO         6129    .rodata.name        cmd.o
+    0x080135da   0x0000000f   Data   RO         6130    .rodata.name        cmd.o
+    0x080135e9   0x00000019   Data   RO         6131    .rodata.name        cmd.o
+    0x08013602   0x0000000b   Data   RO         6132    .rodata.name        cmd.o
+    0x0801360d   0x00000015   Data   RO         6133    .rodata.name        cmd.o
+    0x08013622   0x00000011   Data   RO         6134    .rodata.name        cmd.o
+    0x08013633   0x00000015   Data   RO         6135    .rodata.name        cmd.o
+    0x08013648   0x0000000b   Data   RO         6136    .rodata.name        cmd.o
+    0x08013653   0x00000015   Data   RO         6137    .rodata.name        cmd.o
+    0x08013668   0x00000011   Data   RO         6138    .rodata.name        cmd.o
+    0x08013679   0x00000015   Data   RO         6139    .rodata.name        cmd.o
+    0x0801368e   0x0000000d   Data   RO         6140    .rodata.name        cmd.o
+    0x0801369b   0x00000018   Data   RO         6141    .rodata.name        cmd.o
+    0x080136b3   0x00000013   Data   RO         6142    .rodata.name        cmd.o
+    0x080136c6   0x00000018   Data   RO         6143    .rodata.name        cmd.o
+    0x080136de   0x0000000e   Data   RO         6144    .rodata.name        cmd.o
+    0x080136ec   0x0000001d   Data   RO         6145    .rodata.name        cmd.o
+    0x08013709   0x00000014   Data   RO         6146    .rodata.name        cmd.o
+    0x0801371d   0x0000001d   Data   RO         6147    .rodata.name        cmd.o
+    0x0801373a   0x0000000d   Data   RO         6148    .rodata.name        cmd.o
+    0x08013747   0x0000001b   Data   RO         6149    .rodata.name        cmd.o
+    0x08013762   0x00000013   Data   RO         6150    .rodata.name        cmd.o
+    0x08013775   0x0000001b   Data   RO         6151    .rodata.name        cmd.o
+    0x08013790   0x0000000b   Data   RO         6152    .rodata.name        cmd.o
+    0x0801379b   0x00000015   Data   RO         6153    .rodata.name        cmd.o
+    0x080137b0   0x00000011   Data   RO         6154    .rodata.name        cmd.o
+    0x080137c1   0x00000015   Data   RO         6155    .rodata.name        cmd.o
+    0x080137d6   0x0000000c   Data   RO         6156    .rodata.name        cmd.o
+    0x080137e2   0x00000016   Data   RO         6157    .rodata.name        cmd.o
+    0x080137f8   0x00000012   Data   RO         6158    .rodata.name        cmd.o
+    0x0801380a   0x00000016   Data   RO         6159    .rodata.name        cmd.o
+    0x08013820   0x00000005   Data   RO         6160    .rodata.name        cmd.o
+    0x08013825   0x0000001a   Data   RO         6161    .rodata.name        cmd.o
+    0x0801383f   0x0000000b   Data   RO         6244    .rodata.name        msh.o
+    0x0801384a   0x00000016   Data   RO         6245    .rodata.name        msh.o
+    0x08013860   0x00000009   Data   RO         6294    .rodata.name        msh_cmd.o
+    0x08013869   0x00000022   Data   RO         6295    .rodata.name        msh_cmd.o
+    0x0801388b   0x00000009   Data   RO         6296    .rodata.name        msh_cmd.o
+    0x08013894   0x00000015   Data   RO         6297    .rodata.name        msh_cmd.o
+    0x080138a9   0x00000009   Data   RO         6298    .rodata.name        msh_cmd.o
+    0x080138b2   0x00000017   Data   RO         6299    .rodata.name        msh_cmd.o
+    0x080138c9   0x0000000a   Data   RO         6300    .rodata.name        msh_cmd.o
+    0x080138d3   0x00000014   Data   RO         6301    .rodata.name        msh_cmd.o
+    0x080138e7   0x00000009   Data   RO         6302    .rodata.name        msh_cmd.o
+    0x080138f0   0x0000001c   Data   RO         6303    .rodata.name        msh_cmd.o
+    0x0801390c   0x00000009   Data   RO         6304    .rodata.name        msh_cmd.o
+    0x08013915   0x00000024   Data   RO         6305    .rodata.name        msh_cmd.o
+    0x08013939   0x0000000a   Data   RO         6306    .rodata.name        msh_cmd.o
+    0x08013943   0x00000031   Data   RO         6307    .rodata.name        msh_cmd.o
+    0x08013974   0x0000000c   Data   RO         6308    .rodata.name        msh_cmd.o
+    0x08013980   0x00000016   Data   RO         6309    .rodata.name        msh_cmd.o
+    0x08013996   0x0000000b   Data   RO         6310    .rodata.name        msh_cmd.o
+    0x080139a1   0x0000001d   Data   RO         6311    .rodata.name        msh_cmd.o
+    0x080139be   0x00000009   Data   RO         6312    .rodata.name        msh_cmd.o
+    0x080139c7   0x0000000a   Data   RO         6313    .rodata.name        msh_cmd.o
+    0x080139d1   0x0000000b   Data   RO         6314    .rodata.name        msh_cmd.o
+    0x080139dc   0x00000014   Data   RO         6315    .rodata.name        msh_cmd.o
+    0x080139f0   0x00000009   Data   RO         6316    .rodata.name        msh_cmd.o
+    0x080139f9   0x0000001c   Data   RO         6317    .rodata.name        msh_cmd.o
+    0x08013a15   0x0000000b   Data   RO         6318    .rodata.name        msh_cmd.o
+    0x08013a20   0x0000001b   Data   RO         6319    .rodata.name        msh_cmd.o
+    0x08013a3b   0x0000000b   Data   RO         6320    .rodata.name        msh_cmd.o
+    0x08013a46   0x00000025   Data   RO         6321    .rodata.name        msh_cmd.o
+    0x08013a6b   0x00000009   Data   RO         6699    .rodata.name        at_cli.o
+    0x08013a74   0x0000003a   Data   RO         6700    .rodata.name        at_cli.o
+    0x08013aae   0x00000002   PAD
+    0x08013ab0   0x00000004   Data   RO         3527    .rti_fn.0           components.o
+    0x08013ab4   0x00000004   Data   RO         3528    .rti_fn.0.end       components.o
+    0x08013ab8   0x00000004   Data   RO          418    .rti_fn.1           drv_usart.o
+    0x08013abc   0x00000004   Data   RO          505    .rti_fn.1           drv_gpio.o
+    0x08013ac0   0x00000004   Data   RO         3529    .rti_fn.1.end       components.o
+    0x08013ac4   0x00000004   Data   RO         4802    .rti_fn.2           dfs.o
+    0x08013ac8   0x00000004   Data   RO         6415    .rti_fn.4           libc.o
+    0x08013acc   0x00000004   Data   RO         7092    .rti_fn.4           sal_socket.o
+    0x08013ad0   0x00000004   Data   RO         7266    .rti_fn.4           af_inet_at.o
+    0x08013ad4   0x00000004   Data   RO         6018    .rti_fn.6           shell.o
+    0x08013ad8   0x00000004   Data   RO         3530    .rti_fn.6.end       components.o
+    0x08013adc   0x00000018   Data   RO            8    FSymTab             application.o
+    0x08013af4   0x0000000c   Data   RO          309    FSymTab             board.o
+    0x08013b00   0x00000018   Data   RO         3409    FSymTab             at_socket_esp8266.o
+    0x08013b18   0x0000000c   Data   RO         4216    FSymTab             mem.o
+    0x08013b24   0x0000000c   Data   RO         4803    FSymTab             dfs.o
+    0x08013b30   0x00000030   Data   RO         4955    FSymTab             dfs_file.o
+    0x08013b60   0x00000018   Data   RO         5063    FSymTab             dfs_fs.o
+    0x08013b78   0x00000018   Data   RO         5150    FSymTab             dfs_posix.o
+    0x08013b90   0x00000024   Data   RO         5477    FSymTab             pin.o
+    0x08013bb4   0x00000108   Data   RO         6162    FSymTab             cmd.o
+    0x08013cbc   0x0000000c   Data   RO         6246    FSymTab             msh.o
+    0x08013cc8   0x000000a8   Data   RO         6322    FSymTab             msh_cmd.o
+    0x08013d70   0x0000000c   Data   RO         6701    FSymTab             at_cli.o
+    0x08013d7c   0x00000020   Data   RO         7863    Region$$Table       anon$$obj.o
 
 
     Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x000014a0, Max: 0x00005000, ABSOLUTE, COMPRESSED[0x0000009c])
@@ -6836,7 +6836,7 @@ Image component sizes
       1108        368        231         16         64       6008   at_cli.o
       4252       1408        790          4         52      17814   at_client.o
       5906       1980        202         20        577      28088   at_socket.o
-      4252       1578        533        108          0      15095   at_socket_esp8266.o
+      4248       1574        533        108          0      15095   at_socket_esp8266.o
        440        110          0          4        128       3875   at_utils.o
        458        152         36          0          0       3092   board.o
         84         14          0          4          0       1676   clock.o
@@ -6893,7 +6893,7 @@ Image component sizes
        380         52         15          0          0       3457   waitqueue.o
 
     ----------------------------------------------------------------------
-     63214      17152      10014        768       4504     831327   Object Totals
+     63210      17148      10014        768       4504     831327   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         46          0         26          0         10          0   (incl. Padding)
 
@@ -6983,15 +6983,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     71164      17368      10148        776       4504     817015   Grand Totals
-     71164      17368      10148        156       4504     817015   ELF Image Totals (compressed)
-     71164      17368      10148        156          0          0   ROM Totals
+     71160      17364      10148        776       4504     817015   Grand Totals
+     71160      17364      10148        156       4504     817015   ELF Image Totals (compressed)
+     71160      17364      10148        156          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                81312 (  79.41kB)
+    Total RO  Size (Code + RO Data)                81308 (  79.40kB)
     Total RW  Size (RW Data + ZI Data)              5280 (   5.16kB)
-    Total ROM Size (Code + RO Data + RW Data)      81468 (  79.56kB)
+    Total ROM Size (Code + RO Data + RW Data)      81464 (  79.55kB)
 
 ==============================================================================
 
